@@ -1,0 +1,32 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717947042
+<< metal1 >>
+rect 4843 -106 5043 94
+rect 4843 -506 5043 -306
+rect 4843 -906 5043 -706
+rect 4843 -1306 5043 -1106
+rect 4843 -1706 5043 -1506
+rect 4843 -2106 5043 -1906
+rect 4843 -2506 5043 -2306
+use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_0 ../dependencies/sky130_ef_ip__analog_switches/mag
+timestamp 1717947042
+transform 1 0 318 0 1 -2876
+box 0 0 4416 3648
+<< labels >>
+flabel metal1 4843 -106 5043 94 0 FreeSans 256 0 0 0 VP1
+port 0 nsew
+flabel metal1 4843 -506 5043 -306 0 FreeSans 256 0 0 0 VP2
+port 1 nsew
+flabel metal1 4843 -906 5043 -706 0 FreeSans 256 0 0 0 AVDD
+port 2 nsew
+flabel metal1 4843 -1306 5043 -1106 0 FreeSans 256 0 0 0 DVDD
+port 3 nsew
+flabel metal1 4843 -1706 5043 -1506 0 FreeSans 256 0 0 0 AVSS
+port 4 nsew
+flabel metal1 4843 -2106 5043 -1906 0 FreeSans 256 0 0 0 RST
+port 5 nsew
+flabel metal1 4843 -2506 5043 -2306 0 FreeSans 256 0 0 0 DVSS
+port 6 nsew
+<< end >>

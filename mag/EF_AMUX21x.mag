@@ -1,0 +1,43 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717948824
+<< metal1 >>
+rect 4894 -2562 5094 -2362
+rect 4351 -3713 4551 -3513
+rect 656 -4196 856 -3996
+rect 662 -4738 862 -4538
+rect 673 -5265 873 -5065
+rect 4878 -5204 5078 -5004
+rect 670 -6059 870 -5859
+rect 4894 -7963 5094 -7763
+use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_1 ../dependencies/sky130_ef_ip__analog_switches/mag
+timestamp 1717947042
+transform 1 0 664 0 1 -8770
+box 0 0 4416 3648
+use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_2
+timestamp 1717947042
+transform 1 0 664 0 -1 -1560
+box 0 0 4416 3648
+use sky130_fd_sc_hvl__inv_2  x5 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1715205430
+transform 1 0 4131 0 1 -5165
+box -66 -43 546 897
+<< labels >>
+flabel metal1 662 -4738 862 -4538 0 FreeSans 256 0 0 0 sel
+port 6 nsew
+flabel metal1 673 -5265 873 -5065 0 FreeSans 256 0 0 0 dvss
+port 7 nsew
+flabel metal1 4351 -3713 4551 -3513 0 FreeSans 256 0 0 0 vss
+port 3 nsew
+flabel metal1 670 -6059 870 -5859 0 FreeSans 256 0 0 0 vdd3p3
+port 0 nsew
+flabel metal1 656 -4196 856 -3996 0 FreeSans 256 0 0 0 vdd1p8
+port 1 nsew
+flabel metal1 4894 -7963 5094 -7763 0 FreeSans 256 0 0 0 a
+port 4 nsew
+flabel metal1 4878 -5204 5078 -5004 0 FreeSans 256 0 0 0 vo
+port 2 nsew
+flabel metal1 4894 -2562 5094 -2362 0 FreeSans 256 0 0 0 b
+port 5 nsew
+<< end >>

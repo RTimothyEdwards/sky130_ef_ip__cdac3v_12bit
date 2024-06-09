@@ -1,0 +1,635 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717946239
+<< metal4 >>
+rect 85028 -5487 85748 -5427
+rect 87508 -5487 88228 -5427
+rect 89988 -5487 90708 -5427
+rect 92468 -5487 93188 -5427
+rect 94948 -5487 95668 -5427
+rect 97428 -5487 98148 -5427
+rect 99908 -5487 100628 -5427
+rect 81638 -7057 81698 -6337
+rect 84118 -7057 84178 -6337
+rect 86598 -7057 86658 -6337
+rect 89078 -7057 89138 -6337
+rect 91558 -7057 91618 -6337
+rect 94038 -7057 94098 -6337
+rect 96518 -7057 96578 -6337
+rect 98998 -7057 99058 -6337
+rect 101478 -7057 101538 -6337
+rect 103958 -7057 104018 -6337
+rect 85028 -7967 85748 -7907
+rect 87508 -7967 88228 -7907
+rect 89988 -7967 90708 -7907
+rect 92468 -7967 93188 -7907
+rect 94948 -7967 95668 -7907
+rect 97428 -7967 98148 -7907
+rect 99908 -7967 100628 -7907
+rect 81638 -9537 81698 -8817
+rect 84118 -9537 84178 -8817
+rect 86598 -9537 86658 -8817
+rect 89078 -9537 89138 -8817
+rect 91558 -9537 91618 -8817
+rect 94038 -9537 94098 -8817
+rect 96518 -9537 96578 -8817
+rect 98998 -9537 99058 -8817
+rect 101478 -9537 101538 -8817
+rect 103958 -9537 104018 -8817
+rect 85028 -10447 85748 -10387
+rect 87508 -10447 88228 -10387
+rect 89988 -10447 90708 -10387
+rect 92468 -10447 93188 -10387
+rect 94948 -10447 95668 -10387
+rect 97428 -10447 98148 -10387
+rect 99908 -10447 100628 -10387
+rect 81638 -12017 81698 -11297
+rect 84118 -12017 84178 -11297
+rect 86598 -12017 86658 -11297
+rect 89078 -12017 89138 -11297
+rect 91558 -12017 91618 -11297
+rect 94038 -12017 94098 -11297
+rect 96518 -12017 96578 -11297
+rect 98998 -12017 99058 -11297
+rect 101478 -12017 101538 -11297
+rect 103958 -12017 104018 -11297
+rect 85028 -12927 85748 -12867
+rect 87508 -12927 88228 -12867
+rect 89988 -12927 90708 -12867
+rect 92468 -12927 93188 -12867
+rect 94948 -12927 95668 -12867
+rect 97428 -12927 98148 -12867
+rect 99908 -12927 100628 -12867
+rect 81638 -14497 81698 -13777
+rect 84118 -14497 84178 -13777
+rect 86598 -14497 86658 -13777
+rect 89078 -14497 89138 -13777
+rect 94038 -14497 94098 -13777
+rect 96518 -14497 96578 -13777
+rect 98998 -14497 99058 -13777
+rect 101478 -14497 101538 -13777
+rect 103958 -14497 104018 -13777
+rect 85028 -15407 85748 -15347
+rect 87508 -15407 88228 -15347
+rect 94948 -15407 95668 -15347
+rect 97428 -15407 98148 -15347
+rect 99908 -15407 100628 -15347
+rect 81638 -16977 81698 -16257
+rect 84118 -16977 84178 -16257
+rect 86598 -16977 86658 -16257
+rect 89078 -16977 89138 -16257
+rect 94038 -16977 94098 -16257
+rect 96518 -16977 96578 -16257
+rect 98998 -16977 99058 -16257
+rect 101478 -16977 101538 -16257
+rect 103958 -16977 104018 -16257
+rect 85028 -17887 85748 -17827
+rect 87508 -17887 88228 -17827
+rect 89988 -17887 90708 -17827
+rect 92468 -17887 93188 -17827
+rect 94948 -17887 95668 -17827
+rect 97428 -17887 98148 -17827
+rect 99908 -17887 100628 -17827
+rect 81638 -19457 81698 -18737
+rect 84118 -19457 84178 -18737
+rect 86598 -19457 86658 -18737
+rect 89078 -19457 89138 -18737
+rect 91558 -19457 91618 -18737
+rect 94038 -19457 94098 -18737
+rect 96518 -19457 96578 -18737
+rect 98998 -19457 99058 -18737
+rect 101478 -19457 101538 -18737
+rect 103958 -19457 104018 -18737
+rect 85028 -20367 85748 -20307
+rect 87508 -20367 88228 -20307
+rect 89988 -20367 90708 -20307
+rect 92468 -20367 93188 -20307
+rect 94948 -20367 95668 -20307
+rect 97428 -20367 98148 -20307
+rect 99908 -20367 100628 -20307
+rect 81638 -21937 81698 -21217
+rect 84118 -21937 84178 -21217
+rect 86598 -21937 86658 -21217
+rect 89078 -21937 89138 -21217
+rect 91558 -21937 91618 -21217
+rect 94038 -21937 94098 -21217
+rect 96518 -21937 96578 -21217
+rect 98998 -21937 99058 -21217
+rect 101478 -21937 101538 -21217
+rect 103958 -21937 104018 -21217
+rect 85028 -22847 85748 -22787
+rect 87508 -22847 88228 -22787
+rect 89988 -22847 90708 -22787
+rect 92468 -22847 93188 -22787
+rect 94948 -22847 95668 -22787
+rect 97428 -22847 98148 -22787
+rect 99908 -22847 100628 -22787
+rect 81638 -24417 81698 -23697
+rect 103958 -24417 104018 -23697
+rect 82548 -25327 83268 -25267
+rect 85028 -25327 85748 -25267
+rect 87508 -25327 88228 -25267
+rect 89988 -25327 90708 -25267
+rect 92468 -25327 93188 -25267
+rect 94948 -25327 95668 -25267
+rect 97428 -25327 98148 -25267
+rect 99908 -25327 100628 -25267
+rect 102388 -25327 103108 -25267
+use caparray_connect_far  caparray_connect_far_0
+timestamp 1717943723
+transform 1 0 10260 0 1 4960
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_1
+timestamp 1717943723
+transform 1 0 340 0 1 4960
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_2
+timestamp 1717943723
+transform 1 0 5300 0 1 4960
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_3
+timestamp 1717943723
+transform 1 0 15220 0 1 4960
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_4
+timestamp 1717943723
+transform 1 0 340 0 1 9920
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_5
+timestamp 1717943723
+transform 1 0 5300 0 1 9920
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_6
+timestamp 1717943723
+transform 1 0 10260 0 1 9920
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_7
+timestamp 1717943723
+transform 1 0 15220 0 1 9920
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_8
+timestamp 1717943723
+transform -1 0 170436 0 -1 -38194
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_9
+timestamp 1717943723
+transform -1 0 175396 0 -1 -38194
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_10
+timestamp 1717943723
+transform -1 0 180356 0 -1 -38194
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_11
+timestamp 1717943723
+transform -1 0 185316 0 -1 -38194
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_12
+timestamp 1717943723
+transform -1 0 175396 0 -1 -33234
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_13
+timestamp 1717943723
+transform -1 0 170436 0 -1 -33234
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_14
+timestamp 1717943723
+transform -1 0 180356 0 -1 -33234
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_15
+timestamp 1717943723
+transform -1 0 185316 0 -1 -33234
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_16
+timestamp 1717943723
+transform 1 0 5300 0 1 12400
+box 82568 -26673 85050 -26177
+use caparray_connect_far  caparray_connect_far_17
+timestamp 1717943723
+transform 1 0 15220 0 1 12400
+box 82568 -26673 85050 -26177
+use caparray_connect_near  caparray_connect_near_0
+timestamp 1717937330
+transform 1 0 17360 0 1 2480
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_1
+timestamp 1717937330
+transform 1 0 2480 0 1 2480
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_2
+timestamp 1717937330
+transform 1 0 7440 0 1 2480
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_3
+timestamp 1717937330
+transform 1 0 12400 0 1 2480
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_4
+timestamp 1717937330
+transform -1 0 183176 0 -1 -48114
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_5
+timestamp 1717937330
+transform -1 0 168296 0 -1 -48114
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_6
+timestamp 1717937330
+transform -1 0 173256 0 -1 -48114
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_7
+timestamp 1717937330
+transform -1 0 178216 0 -1 -48114
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_8
+timestamp 1717937330
+transform -1 0 163336 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_9
+timestamp 1717937330
+transform -1 0 173256 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_10
+timestamp 1717937330
+transform -1 0 178216 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_11
+timestamp 1717937330
+transform -1 0 183176 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_12
+timestamp 1717937330
+transform -1 0 185656 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_13
+timestamp 1717937330
+transform -1 0 168296 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_14
+timestamp 1717937330
+transform 1 0 2480 0 1 7440
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_15
+timestamp 1717937330
+transform 1 0 7440 0 1 7440
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_16
+timestamp 1717937330
+transform -1 0 173256 0 -1 -45634
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_17
+timestamp 1717937330
+transform 1 0 17360 0 1 7440
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_18
+timestamp 1717937330
+transform -1 0 168296 0 -1 -43154
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_20
+timestamp 1717937330
+transform -1 0 178216 0 -1 -43154
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_21
+timestamp 1717937330
+transform -1 0 183176 0 -1 -43154
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_22
+timestamp 1717937330
+transform 1 0 7440 0 1 19840
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_23
+timestamp 1717937330
+transform 1 0 2480 0 1 19840
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_24
+timestamp 1717937330
+transform 1 0 12400 0 1 19840
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_25
+timestamp 1717937330
+transform 1 0 17360 0 1 19840
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_26
+timestamp 1717937330
+transform 1 0 2480 0 1 14880
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_27
+timestamp 1717937330
+transform -1 0 165816 0 -1 -38194
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_28
+timestamp 1717937330
+transform 1 0 7440 0 1 14880
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_29
+timestamp 1717937330
+transform 1 0 12400 0 1 14880
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_30
+timestamp 1717937330
+transform -1 0 168296 0 -1 -35714
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_31
+timestamp 1717937330
+transform -1 0 173256 0 -1 -35714
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_32
+timestamp 1717937330
+transform -1 0 178216 0 -1 -35714
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_33
+timestamp 1717937330
+transform -1 0 183176 0 -1 -35714
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_34
+timestamp 1717937330
+transform -1 0 168296 0 -1 -30754
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_35
+timestamp 1717937330
+transform -1 0 173256 0 -1 -30754
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_36
+timestamp 1717937330
+transform -1 0 178216 0 -1 -30754
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_37
+timestamp 1717937330
+transform -1 0 183176 0 -1 -30754
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_38
+timestamp 1717937330
+transform 1 0 4960 0 1 4960
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_39
+timestamp 1717937330
+transform 1 0 14880 0 1 4960
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_40
+timestamp 1717937330
+transform 1 0 12400 0 1 7440
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_41
+timestamp 1717937330
+transform -1 0 183176 0 -1 -45634
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_42
+timestamp 1717937330
+transform -1 0 165816 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_43
+timestamp 1717937330
+transform -1 0 170776 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_44
+timestamp 1717937330
+transform -1 0 175736 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_45
+timestamp 1717937330
+transform -1 0 180696 0 -1 -50594
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_46
+timestamp 1717937330
+transform -1 0 168296 0 -1 -40674
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_47
+timestamp 1717937330
+transform 1 0 12400 0 1 12400
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_48
+timestamp 1717937330
+transform 1 0 17360 0 1 14880
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_49
+timestamp 1717937330
+transform 1 0 2480 0 1 17360
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_50
+timestamp 1717937330
+transform 1 0 12400 0 1 17360
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_51
+timestamp 1717937330
+transform -1 0 170776 0 -1 -33234
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_52
+timestamp 1717937330
+transform -1 0 180696 0 -1 -33234
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_53
+timestamp 1717937330
+transform 1 0 19840 0 1 9920
+box 80427 -26673 82908 -26177
+use caparray_connect_near  caparray_connect_near_54
+timestamp 1717937330
+transform -1 0 178216 0 -1 -40674
+box 80427 -26673 82908 -26177
+use caparray_connect_none  caparray_connect_none_0
+timestamp 1717941056
+transform 1 0 -4960 0 1 -2480
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_1
+timestamp 1717941056
+transform 1 0 9920 0 1 0
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_2
+timestamp 1717941056
+transform 1 0 -4960 0 1 0
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_3
+timestamp 1717941056
+transform 1 0 -4960 0 1 2480
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_4
+timestamp 1717941056
+transform 1 0 -2480 0 1 4960
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_5
+timestamp 1717941056
+transform 1 0 -4960 0 1 7440
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_6
+timestamp 1717941056
+transform 1 0 -4960 0 1 12400
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_7
+timestamp 1717941056
+transform 1 0 -4960 0 1 9920
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_8
+timestamp 1717941056
+transform 1 0 -2480 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_9
+timestamp 1717941056
+transform 1 0 4960 0 1 4960
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_10
+timestamp 1717941056
+transform 1 0 -4960 0 1 4960
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_11
+timestamp 1717941056
+transform 1 0 -4960 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_12
+timestamp 1717941056
+transform 1 0 2480 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_13
+timestamp 1717941056
+transform 1 0 7440 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_14
+timestamp 1717941056
+transform 1 0 12400 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_15
+timestamp 1717941056
+transform 1 0 0 0 1 0
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_16
+timestamp 1717941056
+transform 1 0 14882 0 1 4960
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_17
+timestamp 1717941056
+transform 1 0 2481 0 1 9920
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_18
+timestamp 1717941056
+transform 1 0 12401 0 1 9920
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_19
+timestamp 1717941056
+transform 1 0 17360 0 1 -2480
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_20
+timestamp 1717941056
+transform 1 0 17360 0 1 0
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_21
+timestamp 1717941056
+transform 1 0 17360 0 1 2480
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_22
+timestamp 1717941056
+transform 1 0 17360 0 1 4960
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_23
+timestamp 1717941056
+transform 1 0 17360 0 1 7440
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_24
+timestamp 1717941056
+transform 1 0 17360 0 1 12400
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_25
+timestamp 1717941056
+transform 1 0 17360 0 1 9920
+box 85388 -19191 87868 -19003
+use caparray_connect_none  caparray_connect_none_26
+timestamp 1717941056
+transform 1 0 17360 0 1 14880
+box 85388 -19191 87868 -19003
+use caparray_connect_split  caparray_connect_split_0
+timestamp 1717946239
+transform 1 0 9920 0 1 9920
+box 80427 -26673 82908 -26177
+use cdac_unit_cap  cdac_unit_cap_1
+array 0 9 2480 0 8 2480
+timestamp 1717937330
+transform 1 0 -103 0 1 7155
+box 80396 -33828 83146 -31077
+<< labels >>
+flabel space 81658 -25302 81658 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 84133 -25302 84133 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 86608 -25302 86608 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 89083 -25302 89083 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 91558 -25302 91558 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 94033 -25302 94033 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 96508 -25302 96508 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 98983 -25302 98983 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 101458 -25302 101458 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 103933 -25302 103933 -25302 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -22827 81658 -22827 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -22797 84125 -22797 0 FreeSans 4800 0 0 0 5
+flabel space 86600 -22797 86600 -22797 0 FreeSans 4800 0 0 0 6
+flabel space 89075 -22797 89075 -22797 0 FreeSans 4800 0 0 0 5
+flabel space 91550 -22797 91550 -22797 0 FreeSans 4800 0 0 0 6
+flabel space 94025 -22797 94025 -22797 0 FreeSans 4800 0 0 0 5
+flabel space 96500 -22797 96500 -22797 0 FreeSans 4800 0 0 0 6
+flabel space 98975 -22797 98975 -22797 0 FreeSans 4800 0 0 0 5
+flabel space 101450 -22797 101450 -22797 0 FreeSans 4800 0 0 0 6
+flabel space 103933 -22827 103933 -22827 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -20352 81658 -20352 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -20322 84125 -20322 0 FreeSans 4800 0 0 0 6
+flabel space 86600 -20322 86600 -20322 0 FreeSans 4800 0 0 0 3
+flabel space 89075 -20322 89075 -20322 0 FreeSans 4800 0 0 0 6
+flabel space 91550 -20322 91550 -20322 0 FreeSans 4800 0 0 0 4
+flabel space 94025 -20322 94025 -20322 0 FreeSans 4800 0 0 0 6
+flabel space 96500 -20322 96500 -20322 0 FreeSans 4800 0 0 0 3
+flabel space 98975 -20322 98975 -20322 0 FreeSans 4800 0 0 0 6
+flabel space 101450 -20322 101450 -20322 0 FreeSans 4800 0 0 0 4
+flabel space 103933 -20352 103933 -20352 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -17877 81658 -17877 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -17847 84125 -17847 0 FreeSans 4800 0 0 0 5
+flabel space 86600 -17847 86600 -17847 0 FreeSans 4800 0 0 0 6
+flabel space 89075 -17847 89075 -17847 0 FreeSans 4800 0 0 0 5
+flabel space 91550 -17847 91550 -17847 0 FreeSans 4800 0 0 0 6
+flabel space 94025 -17847 94025 -17847 0 FreeSans 4800 0 0 0 5
+flabel space 96500 -17847 96500 -17847 0 FreeSans 4800 0 0 0 6
+flabel space 98975 -17847 98975 -17847 0 FreeSans 4800 0 0 0 5
+flabel space 101450 -17847 101450 -17847 0 FreeSans 4800 0 0 0 6
+flabel space 81658 -15402 81658 -15402 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -15372 84125 -15372 0 FreeSans 4800 0 0 0 6
+flabel space 86600 -15372 86600 -15372 0 FreeSans 4800 0 0 0 4
+flabel space 89075 -15372 89075 -15372 0 FreeSans 4800 0 0 0 6
+flabel space 91550 -15372 91550 -15372 0 FreeSans 4800 0 0 0 0
+flabel space 94025 -15372 94025 -15372 0 FreeSans 4800 0 0 0 6
+flabel space 96500 -15372 96500 -15372 0 FreeSans 4800 0 0 0 4
+flabel space 98975 -15372 98975 -15372 0 FreeSans 4800 0 0 0 6
+flabel space 101450 -15372 101450 -15372 0 FreeSans 4800 0 0 0 2
+flabel space 103933 -15402 103933 -15402 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -12927 81658 -12927 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -12897 84125 -12897 0 FreeSans 4800 0 0 0 2
+flabel space 86600 -12897 86600 -12897 0 FreeSans 4800 0 0 0 6
+flabel space 89075 -12897 89075 -12897 0 FreeSans 4800 0 0 0 4
+flabel space 91550 -12897 91550 -12897 0 FreeSans 4800 0 0 0 6
+flabel space 94025 -12897 94025 -12897 0 FreeSans 4800 0 0 0 1
+flabel space 96500 -12897 96500 -12897 0 FreeSans 4800 0 0 0 6
+flabel space 98975 -12897 98975 -12897 0 FreeSans 4800 0 0 0 4
+flabel space 101450 -12897 101450 -12897 0 FreeSans 4800 0 0 0 6
+flabel space 103933 -12927 103933 -12927 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -10452 81658 -10452 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -10422 84125 -10422 0 FreeSans 4800 0 0 0 6
+flabel space 86600 -10422 86600 -10422 0 FreeSans 4800 0 0 0 5
+flabel space 89075 -10422 89075 -10422 0 FreeSans 4800 0 0 0 6
+flabel space 91550 -10422 91550 -10422 0 FreeSans 4800 0 0 0 5
+flabel space 94025 -10422 94025 -10422 0 FreeSans 4800 0 0 0 6
+flabel space 96500 -10422 96500 -10422 0 FreeSans 4800 0 0 0 5
+flabel space 98975 -10422 98975 -10422 0 FreeSans 4800 0 0 0 6
+flabel space 101450 -10422 101450 -10422 0 FreeSans 4800 0 0 0 5
+flabel space 103933 -10452 103933 -10452 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -7977 81658 -7977 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -7947 84125 -7947 0 FreeSans 4800 0 0 0 4
+flabel space 86600 -7947 86600 -7947 0 FreeSans 4800 0 0 0 6
+flabel space 89075 -7947 89075 -7947 0 FreeSans 4800 0 0 0 3
+flabel space 91550 -7947 91550 -7947 0 FreeSans 4800 0 0 0 6
+flabel space 94025 -7947 94025 -7947 0 FreeSans 4800 0 0 0 4
+flabel space 96500 -7947 96500 -7947 0 FreeSans 4800 0 0 0 6
+flabel space 98975 -7947 98975 -7947 0 FreeSans 4800 0 0 0 3
+flabel space 101450 -7947 101450 -7947 0 FreeSans 4800 0 0 0 6
+flabel space 103933 -7977 103933 -7977 0 FreeSans 4800 0 0 0 D
+flabel space 81658 -5502 81658 -5502 0 FreeSans 4800 0 0 0 D
+flabel space 84125 -5472 84125 -5472 0 FreeSans 4800 0 0 0 6
+flabel space 86600 -5472 86600 -5472 0 FreeSans 4800 0 0 0 5
+flabel space 89075 -5472 89075 -5472 0 FreeSans 4800 0 0 0 6
+flabel space 91550 -5472 91550 -5472 0 FreeSans 4800 0 0 0 5
+flabel space 94025 -5472 94025 -5472 0 FreeSans 4800 0 0 0 6
+flabel space 96500 -5472 96500 -5472 0 FreeSans 4800 0 0 0 5
+flabel space 98975 -5472 98975 -5472 0 FreeSans 4800 0 0 0 6
+flabel space 101450 -5472 101450 -5472 0 FreeSans 4800 0 0 0 5
+flabel space 103933 -5502 103933 -5502 0 FreeSans 4800 0 0 0 D
+flabel space 103933 -17882 103933 -17882 0 FreeSans 4800 0 0 0 D
+<< end >>

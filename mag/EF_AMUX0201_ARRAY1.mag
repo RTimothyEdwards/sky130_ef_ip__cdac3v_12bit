@@ -1,0 +1,145 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717949353
+<< metal1 >>
+rect 4006 26297 4206 26497
+rect 11019 26295 11219 26495
+rect 18025 26285 18225 26485
+rect 25021 26275 25221 26475
+rect 32024 26286 32224 26486
+rect 39044 26275 39244 26475
+rect 4461 22073 4661 22273
+rect 11473 22065 11673 22265
+rect 18492 22062 18692 22262
+rect 25503 22070 25703 22270
+rect 32494 22056 32694 22256
+rect 39519 22057 39719 22257
+rect 4427 -4166 4627 -3966
+rect 11437 -4163 11637 -3963
+rect 18435 -4180 18635 -3980
+rect 25442 -4173 25642 -3973
+rect 32451 -4166 32651 -3966
+rect 39453 -4164 39653 -3964
+rect 3959 -8375 4159 -8175
+rect 10966 -8377 11166 -8177
+rect 17978 -8376 18178 -8176
+rect 24981 -8381 25181 -8181
+rect 31982 -8388 32182 -8188
+rect 38988 -8379 39188 -8179
+rect 3385 -9482 3585 -9282
+rect 3785 -9482 3985 -9282
+rect 4185 -9482 4385 -9282
+rect 4985 -9482 5185 -9282
+rect 5385 -9482 5585 -9282
+rect 5785 -9482 5985 -9282
+use EF_AMUX21x  EF_AMUX21x_0
+timestamp 1717948824
+transform 0 -1 13438 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  EF_AMUX21x_1
+timestamp 1717948824
+transform 0 -1 6434 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x1
+timestamp 1717948824
+transform 0 -1 20483 -1 0 27163
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x2
+timestamp 1717948824
+transform 0 -1 34450 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x3
+timestamp 1717948824
+transform 0 -1 13479 -1 0 27163
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x4
+timestamp 1717948824
+transform 0 -1 6475 -1 0 27163
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x5
+timestamp 1717948824
+transform 0 -1 27446 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x8
+timestamp 1717948824
+transform 0 -1 20442 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x9
+timestamp 1717948824
+transform 0 -1 -570 1 0 -9040
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x10
+timestamp 1717948824
+transform 0 -1 34491 -1 0 27163
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x11
+timestamp 1717948824
+transform 0 -1 27487 -1 0 27163
+box 656 -8770 5094 -1560
+use EF_AMUX21x  x12
+timestamp 1717948824
+transform 0 -1 -529 -1 0 27163
+box 656 -8770 5094 -1560
+<< labels >>
+flabel metal1 5785 -9482 5985 -9282 0 FreeSans 256 90 0 0 VDD
+port 20 nsew
+flabel metal1 5385 -9482 5585 -9282 0 FreeSans 256 90 0 0 DVDD
+port 21 nsew
+flabel metal1 4985 -9482 5185 -9282 0 FreeSans 256 90 0 0 DVSS
+port 22 nsew
+flabel metal1 4185 -9482 4385 -9282 0 FreeSans 256 90 0 0 VH
+port 24 nsew
+flabel metal1 3785 -9482 3985 -9282 0 FreeSans 256 90 0 0 VL
+port 25 nsew
+flabel metal1 3385 -9482 3585 -9282 0 FreeSans 256 90 0 0 VSS
+port 26 nsew
+flabel metal1 3959 -8375 4159 -8175 0 FreeSans 256 90 0 0 SELD10
+port 30 nsew
+flabel metal1 10966 -8377 11166 -8177 0 FreeSans 256 90 0 0 SELD8
+port 14 nsew
+flabel metal1 17978 -8376 18178 -8176 0 FreeSans 256 90 0 0 SELD6
+port 11 nsew
+flabel metal1 24981 -8381 25181 -8181 0 FreeSans 256 90 0 0 SELD0
+port 1 nsew
+flabel metal1 31982 -8388 32182 -8188 0 FreeSans 256 90 0 0 SELD2
+port 4 nsew
+flabel metal1 38988 -8379 39188 -8179 0 FreeSans 256 90 0 0 SELD4
+port 7 nsew
+flabel metal1 4006 26297 4206 26497 0 FreeSans 256 90 0 0 SELD11
+port 29 nsew
+flabel metal1 11019 26295 11219 26495 0 FreeSans 256 90 0 0 SELD9
+port 16 nsew
+flabel metal1 18025 26285 18225 26485 0 FreeSans 256 90 0 0 SELD7
+port 12 nsew
+flabel metal1 25021 26275 25221 26475 0 FreeSans 256 90 0 0 SELD1
+port 3 nsew
+flabel metal1 32024 26286 32224 26486 0 FreeSans 256 90 0 0 SELD3
+port 6 nsew
+flabel metal1 39044 26275 39244 26475 0 FreeSans 256 90 0 0 SELD5
+port 9 nsew
+flabel metal1 4427 -4166 4627 -3966 0 FreeSans 256 90 0 0 D10
+port 28 nsew
+flabel metal1 11437 -4163 11637 -3963 0 FreeSans 256 90 0 0 D8
+port 18 nsew
+flabel metal1 18435 -4180 18635 -3980 0 FreeSans 256 90 0 0 D6
+port 15 nsew
+flabel metal1 25442 -4173 25642 -3973 0 FreeSans 256 90 0 0 D0
+port 0 nsew
+flabel metal1 32451 -4166 32651 -3966 0 FreeSans 256 90 0 0 D2
+port 5 nsew
+flabel metal1 39453 -4164 39653 -3964 0 FreeSans 256 90 0 0 D4
+port 10 nsew
+flabel metal1 4461 22073 4661 22273 0 FreeSans 256 90 0 0 D11
+port 27 nsew
+flabel metal1 11473 22065 11673 22265 0 FreeSans 256 90 0 0 D9
+port 19 nsew
+flabel metal1 18492 22062 18692 22262 0 FreeSans 256 90 0 0 D7
+port 17 nsew
+flabel metal1 25503 22070 25703 22270 0 FreeSans 256 90 0 0 D1
+port 2 nsew
+flabel metal1 32494 22056 32694 22256 0 FreeSans 256 90 0 0 D3
+port 8 nsew
+flabel metal1 39519 22057 39719 22257 0 FreeSans 256 90 0 0 D5
+port 13 nsew
+<< end >>

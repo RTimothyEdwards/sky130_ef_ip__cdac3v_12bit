@@ -1,0 +1,91 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717949353
+<< error_s >>
+rect 53680 10873 53707 10876
+rect 53708 10873 53735 10882
+rect 88539 -24403 88558 -24388
+rect 88567 -24392 88586 -24388
+<< metal1 >>
+rect 53507 10676 53707 10876
+rect 88577 10633 88777 10833
+rect 53516 3669 53716 3869
+rect 88559 3631 88759 3831
+rect 53520 -3329 53720 -3129
+rect 88563 -3380 88763 -3180
+rect 53507 -10340 53707 -10140
+rect 88563 -10383 88763 -10183
+rect 52995 -13049 53195 -12849
+rect 52995 -13449 53195 -13249
+rect 52995 -13849 53195 -13649
+rect 52995 -14249 53195 -14049
+rect 52995 -14649 53195 -14449
+rect 52995 -15049 53195 -14849
+rect 52995 -15449 53195 -15249
+rect 53507 -17339 53707 -17139
+rect 88563 -17377 88763 -17177
+rect 53507 -24341 53707 -24141
+rect 88567 -24392 88767 -24192
+rect 53510 -30864 53710 -30664
+rect 87564 -31078 87764 -30878
+use EF_SW_RST  x1
+timestamp 1717947042
+transform 1 0 53389 0 -1 -31049
+box 318 -2876 5043 772
+use sky130_fd_sc_hvl__lsbuflv2hv_1  x2 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
+timestamp 1715205430
+transform -1 0 87263 0 -1 -30043
+box -66 -43 2178 1671
+use EF_AMUX0201_ARRAY1  x3
+timestamp 1717949353
+transform 0 1 62083 -1 0 14841
+box 990 -9482 43261 26507
+use EF_BANK_CAP_12  x4
+timestamp 1717948824
+transform 1 0 0 0 1 -7200
+box 58092 -26522 83750 20892
+<< labels >>
+flabel metal1 52995 -13049 53195 -12849 0 FreeSans 256 0 0 0 VDD
+port 10 nsew
+flabel metal1 52995 -13449 53195 -13249 0 FreeSans 256 0 0 0 DVDD
+port 11 nsew
+flabel metal1 52995 -13849 53195 -13649 0 FreeSans 256 0 0 0 DVSS
+port 12 nsew
+flabel metal1 52995 -14249 53195 -14049 0 FreeSans 256 0 0 0 VSS
+port 13 nsew
+flabel metal1 52995 -14649 53195 -14449 0 FreeSans 256 0 0 0 VH
+port 14 nsew
+flabel metal1 52995 -15049 53195 -14849 0 FreeSans 256 0 0 0 VL
+port 15 nsew
+flabel metal1 52995 -15449 53195 -15249 0 FreeSans 256 0 0 0 OUT
+port 16 nsew
+flabel metal1 87564 -31078 87764 -30878 0 FreeSans 256 0 0 0 EN
+port 18 nsew
+flabel metal1 53510 -30864 53710 -30664 0 FreeSans 256 0 0 0 RST
+port 17 nsew
+flabel metal1 53507 -24341 53707 -24141 0 FreeSans 256 0 0 0 SELD4
+port 4 nsew
+flabel metal1 53507 -17339 53707 -17139 0 FreeSans 256 0 0 0 SELD2
+port 2 nsew
+flabel metal1 53507 -10340 53707 -10140 0 FreeSans 256 0 0 0 SELD0
+port 0 nsew
+flabel metal1 53520 -3329 53720 -3129 0 FreeSans 256 0 0 0 SELD6
+port 6 nsew
+flabel metal1 53516 3669 53716 3869 0 FreeSans 256 0 0 0 SELD8
+port 8 nsew
+flabel metal1 53507 10676 53707 10876 0 FreeSans 256 0 0 0 SELD10
+port 19 nsew
+flabel metal1 88577 10633 88777 10833 0 FreeSans 256 0 0 0 SELD11
+port 21 nsew
+flabel metal1 88559 3631 88759 3831 0 FreeSans 256 0 0 0 SELD9
+port 9 nsew
+flabel metal1 88563 -3380 88763 -3180 0 FreeSans 256 0 0 0 SELD7
+port 7 nsew
+flabel metal1 88563 -10383 88763 -10183 0 FreeSans 256 0 0 0 SELD1
+port 1 nsew
+flabel metal1 88563 -17377 88763 -17177 0 FreeSans 256 0 0 0 SELD3
+port 3 nsew
+flabel metal1 88567 -24392 88767 -24192 0 FreeSans 256 0 0 0 SELD5
+port 5 nsew
+<< end >>

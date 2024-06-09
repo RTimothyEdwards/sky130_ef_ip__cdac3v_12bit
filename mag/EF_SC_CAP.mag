@@ -1,0 +1,43 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1717891028
+<< error_s >>
+rect 2514 1020 2596 1340
+rect 2834 1020 2916 1340
+rect 4314 1020 4396 1340
+rect 4634 1020 4716 1340
+rect 6114 1020 6196 1340
+rect 6434 1020 6516 1340
+rect 7914 1020 7996 1340
+rect 8234 1020 8316 1340
+rect 9714 1020 9796 1340
+rect 10034 1020 10116 1340
+rect 11514 1020 11596 1340
+rect 11834 1020 11916 1340
+rect 13314 1020 13396 1340
+rect 13634 1020 13716 1340
+rect 15114 1020 15196 1340
+rect 15434 1020 15516 1340
+rect 16914 1020 16996 1340
+rect 17234 1020 17316 1340
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+use sky130_fd_pr__cap_mim_m3_2_WZDSVM  XC1 paramcells
+timestamp 1717881426
+transform 0 1 9915 1 0 246
+box -1072 -8881 1094 8881
+use sky130_fd_pr__cap_mim_m3_1_WZDSVM  XC6 paramcells
+timestamp 1717891028
+transform 0 1 9555 -1 0 -169
+box -909 -8480 909 9200
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 VP1
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VP2
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 VSS
+port 2 nsew
+<< end >>
