@@ -5,19 +5,7 @@ K {}
 V {}
 S {}
 E {}
-N -610 -850 -590 -850 {
-lab=EN}
-N -510 -850 -490 -850 {
-lab=EN3V}
-N 310 -1100 330 -1100 {
-lab=OUT}
-N 230 -1100 250 -1100 {
-lab=OUT}
-N 310 -1050 330 -1050 {
-lab=OUTNC}
-N 230 -1050 250 -1050 {
-lab=OUTNC}
-C {devices/lab_pin.sym} -310 -1480 0 0 {name=p2 sig_type=std_logic lab=VP2}
+C {devices/lab_pin.sym} -310 -1480 0 0 {name=p2 sig_type=std_logic lab=OUT}
 C {devices/lab_pin.sym} -310 -1440 0 0 {name=p3 sig_type=std_logic lab=D0}
 C {devices/lab_pin.sym} -310 -1360 0 0 {name=p4 sig_type=std_logic lab=D4}
 C {devices/lab_pin.sym} -310 -1280 0 0 {name=p5 sig_type=std_logic lab=D8}
@@ -29,7 +17,7 @@ C {devices/lab_pin.sym} -310 -1320 0 0 {name=p48 sig_type=std_logic lab=D6}
 C {devices/lab_pin.sym} -310 -1460 0 0 {name=p71 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} -310 -1300 0 0 {name=p72 sig_type=std_logic lab=D7}
 C {devices/lab_pin.sym} -310 -1380 0 0 {name=p81 sig_type=std_logic lab=D3}
-C {devices/lab_pin.sym} -310 -1500 0 0 {name=p1 sig_type=std_logic lab=VP1}
+C {devices/lab_pin.sym} -310 -1500 0 0 {name=p1 sig_type=std_logic lab=OUTNC}
 C {devices/lab_pin.sym} -305 -1040 0 0 {name=p6 sig_type=std_logic lab=SELD5}
 C {devices/lab_pin.sym} -305 -1060 0 0 {name=p8 sig_type=std_logic lab=SELD4}
 C {devices/lab_pin.sym} -305 -1080 0 0 {name=p11 sig_type=std_logic lab=SELD3}
@@ -55,8 +43,8 @@ C {devices/lab_pin.sym} -5 -1100 0 1 {name=p49 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} -5 -1080 0 1 {name=p54 sig_type=std_logic lab=DVSS}
 C {devices/lab_pin.sym} -5 -1060 0 1 {name=p55 sig_type=std_logic lab=VH}
 C {devices/lab_pin.sym} -5 -1040 0 1 {name=p56 sig_type=std_logic lab=VL}
-C {devices/lab_pin.sym} 170 -1395 0 0 {name=p57 sig_type=std_logic lab=VP1}
-C {devices/lab_pin.sym} 170 -1375 0 0 {name=p58 sig_type=std_logic lab=VP2}
+C {devices/lab_pin.sym} 170 -1395 0 0 {name=p57 sig_type=std_logic lab=OUTNC}
+C {devices/lab_pin.sym} 170 -1375 0 0 {name=p58 sig_type=std_logic lab=OUT}
 C {devices/lab_pin.sym} 470 -1395 0 1 {name=p59 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 470 -1375 0 1 {name=p62 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} 470 -1355 0 1 {name=p63 sig_type=std_logic lab=VSS}
@@ -81,17 +69,10 @@ C {devices/iopin.sym} -570 -1135 0 0 {name=p41 lab=VH}
 C {devices/iopin.sym} -570 -1105 0 0 {name=p42 lab=VL}
 C {devices/iopin.sym} -570 -1225 0 0 {name=p43 lab=VSS}
 C {devices/ipin.sym} -535 -1020 0 0 {name=p46 lab=RST}
-C {lsbuflv2hv_1.sym} -550 -850 0 0 {name=x2 LVPWR=DVDD VGND=DVSS VNB=DVSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hvl__ }
-C {devices/ipin.sym} -610 -850 0 0 {name=p38 lab=EN}
-C {devices/lab_pin.sym} -490 -850 0 1 {name=p45 sig_type=std_logic lab=EN3V}
 C {devices/lab_pin.sym} 470 -1315 0 1 {name=p36 sig_type=std_logic lab=DVSS}
 C {devices/lab_pin.sym} -5 -1120 0 1 {name=p44 sig_type=std_logic lab=VSS}
-C {devices/opin.sym} 330 -1100 0 0 {name=p39 lab=OUT}
-C {devices/opin.sym} 330 -1050 0 0 {name=p40 lab=OUTNC}
-C {devices/short.sym} 280 -1100 3 0 {name=x5 value=0.1}
-C {devices/lab_pin.sym} 230 -1100 0 0 {name=p50 sig_type=std_logic lab=VP2}
-C {devices/short.sym} 280 -1050 3 0 {name=x6 value=0.1}
-C {devices/lab_pin.sym} 230 -1050 0 0 {name=p51 sig_type=std_logic lab=VP1}
+C {devices/opin.sym} -550 -960 0 0 {name=p39 lab=OUT}
+C {devices/opin.sym} -550 -910 0 0 {name=p40 lab=OUTNC}
 C {devices/ipin.sym} -495 -1320 0 0 {name=p37 lab=SELD10}
 C {devices/ipin.sym} -495 -1300 0 0 {name=p52 lab=SELD11}
 C {devices/lab_pin.sym} -310 -1240 0 0 {name=p53 sig_type=std_logic lab=D10}

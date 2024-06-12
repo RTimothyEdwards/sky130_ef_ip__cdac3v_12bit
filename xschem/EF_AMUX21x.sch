@@ -40,7 +40,7 @@ lab=vo}
 C {devices/ipin.sym} -20 -370 0 0 {name=p16 lab=sel}
 C {../dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_ena1v8.sym} 410 -370 0 0 {name=x1}
 C {../dependencies/sky130_ef_ip__analog_switches/xschem/simple_analog_switch_ena1v8.sym} 410 -230 0 0 {name=x4}
-C {sky130_stdcells/inv_2.sym} 245 -520 0 0 {name=x5 VGND=vss VNB=vss VPB=vdd1p8 VPWR=vdd1p8 prefix=sky130_fd_sc_hvl__ 
+C {sky130_stdcells/inv_2.sym} 245 -520 0 0 {name=x5 VGND=dvss VNB=dvss VPB=vdd1p8 VPWR=vdd1p8 prefix=sky130_fd_sc_hd__ 
 }
 C {devices/lab_pin.sym} 170 -520 0 0 {name=p7 sig_type=std_logic lab=sel}
 C {devices/lab_pin.sym} 285 -520 0 1 {name=p21 sig_type=std_logic lab=selp}
