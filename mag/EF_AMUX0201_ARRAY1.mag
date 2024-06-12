@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718213079
+timestamp 1718225130
 << metal1 >>
 rect 5959 27041 6159 27241
 rect 12963 27041 13163 27241
@@ -117,53 +117,53 @@ rect 51188 -7650 51588 25897
 rect 22142 -8050 29058 -7650
 rect 50074 -8050 51588 -7650
 use EF_AMUX21x  EF_AMUX21x_0
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 13438 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  EF_AMUX21x_1
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 6434 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x1
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 27446 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x2
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 41454 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x3
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 13438 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x4
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 6434 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x5
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 34450 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x8
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 27446 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x9
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 -570 1 0 -9660
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x10
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 41454 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x11
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 34450 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 use EF_AMUX21x  x12
-timestamp 1718131540
+timestamp 1718225130
 transform 0 -1 -570 -1 0 27907
-box 596 -8770 5083 -1560
+box 596 -8770 5084 -1560
 << labels >>
 flabel metal1 5959 -8994 6159 -8794 0 FreeSans 256 90 0 0 SELD11
 port 30 nsew

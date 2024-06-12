@@ -1,53 +1,53 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718210529
+timestamp 1718225130
 << dnwell >>
-rect 58654 -26536 83758 20910
+rect 58658 -26536 83755 20910
 << nwell >>
-rect 58545 20704 83867 21019
-rect 58545 -26330 58860 20704
-rect 83552 -26330 83867 20704
-rect 58545 -26645 83867 -26330
+rect 58549 20704 83864 21019
+rect 58549 -26330 58864 20704
+rect 83549 -26330 83864 20704
+rect 58549 -26645 83864 -26330
 << mvnsubdiff >>
-rect 58611 20933 83801 20953
-rect 58611 20899 58691 20933
-rect 83721 20899 83801 20933
-rect 58611 20879 83801 20899
-rect 58611 20873 58685 20879
-rect 58611 -26499 58631 20873
-rect 58665 -26499 58685 20873
-rect 58611 -26505 58685 -26499
-rect 83727 20873 83801 20879
-rect 83727 -26499 83747 20873
-rect 83781 -26499 83801 20873
-rect 83727 -26505 83801 -26499
-rect 58611 -26525 83801 -26505
-rect 58611 -26559 58691 -26525
-rect 83721 -26559 83801 -26525
-rect 58611 -26579 83801 -26559
+rect 58615 20933 83798 20953
+rect 58615 20899 58695 20933
+rect 83718 20899 83798 20933
+rect 58615 20879 83798 20899
+rect 58615 20873 58689 20879
+rect 58615 -26499 58635 20873
+rect 58669 -26499 58689 20873
+rect 58615 -26505 58689 -26499
+rect 83724 20873 83798 20879
+rect 83724 -26499 83744 20873
+rect 83778 -26499 83798 20873
+rect 83724 -26505 83798 -26499
+rect 58615 -26525 83798 -26505
+rect 58615 -26559 58695 -26525
+rect 83718 -26559 83798 -26525
+rect 58615 -26579 83798 -26559
 << mvnsubdiffcont >>
-rect 58691 20899 83721 20933
-rect 58631 -26499 58665 20873
-rect 83747 -26499 83781 20873
-rect 58691 -26559 83721 -26525
+rect 58695 20899 83718 20933
+rect 58635 -26499 58669 20873
+rect 83744 -26499 83778 20873
+rect 58695 -26559 83718 -26525
 << locali >>
-rect 58611 20933 83801 20953
-rect 58611 20899 58691 20933
-rect 83721 20899 83801 20933
-rect 58611 20879 83801 20899
-rect 58611 20873 58685 20879
-rect 58611 -26499 58631 20873
-rect 58665 -26499 58685 20873
-rect 58611 -26505 58685 -26499
-rect 83727 20873 83801 20879
-rect 83727 -26499 83747 20873
-rect 83781 -26499 83801 20873
-rect 83727 -26505 83801 -26499
-rect 58611 -26525 83801 -26505
-rect 58611 -26559 58691 -26525
-rect 83721 -26559 83801 -26525
-rect 58611 -26579 83801 -26559
+rect 58615 20933 83798 20953
+rect 58615 20899 58695 20933
+rect 83718 20899 83798 20933
+rect 58615 20879 83798 20899
+rect 58615 20873 58689 20879
+rect 58615 -26499 58635 20873
+rect 58669 -26499 58689 20873
+rect 58615 -26505 58689 -26499
+rect 83724 20873 83798 20879
+rect 83724 -26499 83744 20873
+rect 83778 -26499 83798 20873
+rect 83724 -26505 83798 -26499
+rect 58615 -26525 83798 -26505
+rect 58615 -26559 58695 -26525
+rect 83718 -26559 83798 -26525
+rect 58615 -26579 83798 -26559
 << metal3 >>
 rect 58361 18306 58817 18370
 rect 83378 18182 83379 18246
@@ -343,286 +343,251 @@ rect 59053 -23876 59054 -23812
 rect 58988 -23877 59054 -23876
 rect 58991 -24043 59051 -23877
 use cap_array_half  cap_array_half_0
-timestamp 1718210529
+timestamp 1718225130
 transform -1 0 164043 0 -1 -5781
 box 80293 -26673 105363 -4081
 use cap_array_half  cap_array_half_1
-timestamp 1718210529
+timestamp 1718225130
 transform 1 0 -21613 0 1 151
 box 80293 -26673 105363 -4081
 use caparray_connect_near  caparray_connect_near_0
-timestamp 1717937330
+timestamp 1718225130
 transform -1 0 151643 0 -1 -28101
 box 80427 -26673 82908 -26177
 use cdac_cross2_short  cdac_cross2_short_0
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 14880 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_1
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -4960 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_2
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -2480 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_3
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 0 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_6
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 7440 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_7
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 9920 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_8
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 12400 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross_short  cdac_cross_short_0
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 64691
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_1
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 14880 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_2
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -4960 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_3
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -2480 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_4
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 0 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_5
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 2480 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_6
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 4960 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_7
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 7440 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_8
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 9920 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_9
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 12400 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_10
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -75281
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_11
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -77761
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_12
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -87681
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_13
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -82721
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_14
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -85201
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_15
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 82051
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_16
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 82051
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_17
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 47309
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_18
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 49789
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_19
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 52269
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_20
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 54749
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_21
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 57229
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_22
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 59709
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_23
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 62189
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_24
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 64691
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_25
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 67171
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_26
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 69651
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_27
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 72131
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_28
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 74611
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_29
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 77091
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_30
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 79571
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_31
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 85201 -1 0 44829
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_32
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -80241
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_33
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -72801
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_34
-timestamp 1718207857
+timestamp 1718225130
 transform 0 -1 57229 1 0 -70321
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_35
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 72131
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_36
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 69651
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_37
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 67171
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_38
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 79571
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_39
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 77091
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_40
-timestamp 1718207857
+timestamp 1718225130
 transform 0 1 62881 -1 0 74611
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_41
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 14880 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_42
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 12400 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_43
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 9920 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_44
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 7440 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_45
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 4960 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_46
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 2480 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_47
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 0 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_48
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -2480 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_49
-timestamp 1718207857
+timestamp 1718225130
 transform 1 0 -4960 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_ratioed_cap  cdac_ratioed_cap_0
 array 0 9 2480 0 0 2797
-timestamp 1717944067
+timestamp 1718225130
 transform 1 0 -21716 0 1 29649
 box 80396 -33851 83146 -31078
 << labels >>
-flabel comment 83579 -11569 83579 -11569 0 FreeSans 800 0 0 0 D1
-flabel comment 58853 -21366 58853 -21366 0 FreeSans 800 0 0 0 D2
-flabel comment 58858 -6610 58858 -6610 0 FreeSans 800 0 0 0 D2
-flabel comment 83585 -19010 83585 -19010 0 FreeSans 800 0 0 0 D3
-flabel comment 83587 -14052 83587 -14052 0 FreeSans 800 0 0 0 D3
-flabel comment 83582 -8968 83582 -8968 0 FreeSans 800 0 0 0 D3
-flabel comment 58850 -23849 58850 -23849 0 FreeSans 800 0 0 0 D4
-flabel comment 58864 -18883 58864 -18883 0 FreeSans 800 0 0 0 D4
-flabel comment 58859 -9083 58859 -9083 0 FreeSans 800 0 0 0 D4
-flabel comment 58859 -4132 58859 -4132 0 FreeSans 800 0 0 0 D4
-flabel comment 83577 -21482 83577 -21482 0 FreeSans 800 0 0 0 D5
-flabel comment 83566 -16524 83566 -16524 0 FreeSans 800 0 0 0 D5
-flabel comment 83566 -11441 83566 -11441 0 FreeSans 800 0 0 0 D5
-flabel comment 83566 -6489 83566 -6489 0 FreeSans 800 0 0 0 D5
-flabel comment 83583 10775 83583 10775 0 FreeSans 800 0 0 0 VSS
-flabel comment 58847 5934 58847 5934 0 FreeSans 800 0 0 0 D7
-flabel comment 58847 10766 58847 10766 0 FreeSans 800 0 0 0 D7
-flabel comment 83575 8295 83575 8295 0 FreeSans 800 0 0 0 D6
-flabel comment 83587 977 83587 977 0 FreeSans 800 0 0 0 D8
-flabel comment 83576 15736 83576 15736 0 FreeSans 800 0 0 0 D8
-flabel comment 58837 3322 58837 3322 0 FreeSans 800 0 0 0 D9
-flabel comment 58843 8414 58843 8414 0 FreeSans 800 0 0 0 D9
-flabel comment 58859 13375 58859 13375 0 FreeSans 800 0 0 0 D9
-flabel comment 83588 -1497 83588 -1497 0 FreeSans 800 0 0 0 D10
-flabel comment 83571 13253 83571 13253 0 FreeSans 800 0 0 0 D10
-flabel comment 83575 18212 83575 18212 0 FreeSans 800 0 0 0 D10
-flabel comment 58855 851 58855 851 0 FreeSans 800 0 0 0 D11
-flabel comment 58855 5813 58855 5813 0 FreeSans 800 0 0 0 D11
-flabel comment 58855 10892 58855 10892 0 FreeSans 800 0 0 0 D11
-flabel comment 58859 15862 58859 15862 0 FreeSans 800 0 0 0 D11
-flabel comment 58877 -13922 58877 -13922 0 FreeSans 800 0 0 0 D0
-flabel comment 58889 -16402 58889 -16402 0 FreeSans 800 0 0 0 VSS
-flabel comment 58868 -11570 58868 -11570 0 FreeSans 800 0 0 0 D1
-flabel comment 83547 -16401 83547 -16401 0 FreeSans 800 0 0 0 D1
-flabel comment 83564 3460 83564 3460 0 FreeSans 800 0 0 0 D10
 flabel metal3 58344 10742 58544 10806 0 FreeSans 480 0 0 0 D7
 port 11 nsew
 flabel metal3 58258 3302 58458 3366 0 FreeSans 480 0 0 0 D9
@@ -653,4 +618,39 @@ flabel metal3 58348 -16436 58545 -16372 0 FreeSans 480 0 0 0 VSS
 port 10 nsew
 flabel metal3 83928 18182 84120 18246 0 FreeSans 480 0 0 0 D10
 port 13 nsew
+flabel comment 58853 -21366 58853 -21366 0 FreeSans 800 0 0 0 D2
+flabel comment 58858 -6610 58858 -6610 0 FreeSans 800 0 0 0 D2
+flabel comment 58850 -23849 58850 -23849 0 FreeSans 800 0 0 0 D4
+flabel comment 58864 -18883 58864 -18883 0 FreeSans 800 0 0 0 D4
+flabel comment 58859 -9083 58859 -9083 0 FreeSans 800 0 0 0 D4
+flabel comment 58859 -4132 58859 -4132 0 FreeSans 800 0 0 0 D4
+flabel comment 58847 5934 58847 5934 0 FreeSans 800 0 0 0 D7
+flabel comment 58847 10766 58847 10766 0 FreeSans 800 0 0 0 D7
+flabel comment 58837 3322 58837 3322 0 FreeSans 800 0 0 0 D9
+flabel comment 58843 8414 58843 8414 0 FreeSans 800 0 0 0 D9
+flabel comment 58859 13375 58859 13375 0 FreeSans 800 0 0 0 D9
+flabel comment 58855 851 58855 851 0 FreeSans 800 0 0 0 D11
+flabel comment 58855 5813 58855 5813 0 FreeSans 800 0 0 0 D11
+flabel comment 58855 10892 58855 10892 0 FreeSans 800 0 0 0 D11
+flabel comment 58859 15862 58859 15862 0 FreeSans 800 0 0 0 D11
+flabel comment 58877 -13922 58877 -13922 0 FreeSans 800 0 0 0 D0
+flabel comment 58889 -16402 58889 -16402 0 FreeSans 800 0 0 0 VSS
+flabel comment 58868 -11570 58868 -11570 0 FreeSans 800 0 0 0 D1
+flabel comment 83576 -11569 83576 -11569 0 FreeSans 800 0 0 0 D1
+flabel comment 83582 -19010 83582 -19010 0 FreeSans 800 0 0 0 D3
+flabel comment 83584 -14052 83584 -14052 0 FreeSans 800 0 0 0 D3
+flabel comment 83579 -8968 83579 -8968 0 FreeSans 800 0 0 0 D3
+flabel comment 83574 -21482 83574 -21482 0 FreeSans 800 0 0 0 D5
+flabel comment 83563 -16524 83563 -16524 0 FreeSans 800 0 0 0 D5
+flabel comment 83563 -11441 83563 -11441 0 FreeSans 800 0 0 0 D5
+flabel comment 83563 -6489 83563 -6489 0 FreeSans 800 0 0 0 D5
+flabel comment 83580 10775 83580 10775 0 FreeSans 800 0 0 0 VSS
+flabel comment 83572 8295 83572 8295 0 FreeSans 800 0 0 0 D6
+flabel comment 83584 977 83584 977 0 FreeSans 800 0 0 0 D8
+flabel comment 83573 15736 83573 15736 0 FreeSans 800 0 0 0 D8
+flabel comment 83585 -1497 83585 -1497 0 FreeSans 800 0 0 0 D10
+flabel comment 83568 13253 83568 13253 0 FreeSans 800 0 0 0 D10
+flabel comment 83572 18212 83572 18212 0 FreeSans 800 0 0 0 D10
+flabel comment 83544 -16401 83544 -16401 0 FreeSans 800 0 0 0 D1
+flabel comment 83561 3460 83561 3460 0 FreeSans 800 0 0 0 D10
 << end >>
