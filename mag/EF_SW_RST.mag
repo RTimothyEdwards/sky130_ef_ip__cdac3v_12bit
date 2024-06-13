@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718225130
+timestamp 1718247631
 << error_s >>
 rect 1876 4154 2249 4159
 rect 1876 3945 1881 4154
@@ -158,11 +158,11 @@ rect 1874 -2680 2249 -2602
 << metal3 >>
 rect 1272 2956 1275 3164
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_0 ../../../dependencies/sky130_ef_ip__analog_switches/mag
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 318 0 -1 4334
 box 0 0 4420 3648
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 318 0 1 -2876
 box 0 0 4420 3648
 << labels >>

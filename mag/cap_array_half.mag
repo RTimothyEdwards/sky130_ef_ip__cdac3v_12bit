@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718225130
+timestamp 1718247631
 << error_s >>
 rect 91871 -16443 92105 -15987
 rect 91791 -16523 92185 -16443
@@ -142,408 +142,408 @@ rect 97428 -25327 98148 -25267
 rect 99908 -25327 100628 -25267
 rect 102388 -25327 103108 -25267
 use caparray_connect_far  caparray_connect_far_0
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 10260 0 1 4960
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 340 0 1 4960
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_2
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 5300 0 1 4960
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_3
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 15220 0 1 4960
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_4
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 340 0 1 9920
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_5
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 5300 0 1 9920
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_6
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 10260 0 1 9920
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_7
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 15220 0 1 9920
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_8
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 170436 0 -1 -38194
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_9
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 175396 0 -1 -38194
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_10
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 180356 0 -1 -38194
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_11
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 185316 0 -1 -38194
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_12
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 175396 0 -1 -33234
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_13
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 170436 0 -1 -33234
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_14
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 180356 0 -1 -33234
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_15
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 185316 0 -1 -33234
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_16
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 5300 0 1 12400
 box 82568 -26673 85050 -26177
 use caparray_connect_far  caparray_connect_far_17
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 15220 0 1 12400
 box 82568 -26673 85050 -26177
 use caparray_connect_near  caparray_connect_near_0
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 2480
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 2480
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_2
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 2480
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_3
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 2480
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_4
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -48114
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_5
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -48114
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_6
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 173256 0 -1 -48114
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_7
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -48114
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_8
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 163336 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_9
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 173256 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_10
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_11
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_12
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 185656 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_13
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_14
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 7440
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_15
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 7440
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_16
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 173256 0 -1 -45634
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_17
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 7440
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_18
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -43154
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_20
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -43154
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_21
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -43154
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_22
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 19840
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_23
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 19840
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_24
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 19840
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_25
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 19840
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_26
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 14880
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_27
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 165816 0 -1 -38194
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_28
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 14880
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_29
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 14880
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_30
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -35714
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_31
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 173256 0 -1 -35714
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_32
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -35714
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_33
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -35714
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_34
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -30754
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_35
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 173256 0 -1 -30754
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_36
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -30754
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_37
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -30754
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_38
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 4960 0 1 4960
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_39
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 14880 0 1 4960
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_40
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 7440
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_41
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 183176 0 -1 -45634
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_42
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 165816 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_43
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 170776 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_44
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 175736 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_45
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 180696 0 -1 -50594
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_46
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 168296 0 -1 -40674
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_47
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 12400
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_48
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 14880
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_49
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 17360
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_50
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 17360
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_51
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 170776 0 -1 -33234
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_52
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 180696 0 -1 -33234
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_53
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 19840 0 1 9920
 box 80427 -26673 82908 -26177
 use caparray_connect_near  caparray_connect_near_54
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 178216 0 -1 -40674
 box 80427 -26673 82908 -26177
 use caparray_connect_none  caparray_connect_none_0
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 -2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 9920 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_2
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_3
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_4
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -2480 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_5
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 7440
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_6
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 12400
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_7
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_8
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -2480 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_9
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 4960 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_10
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_11
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_12
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_13
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_14
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_15
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 0 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_16
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 14882 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_17
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2481 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_18
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12401 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_19
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 -2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_20
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_21
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_22
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_23
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 7440
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_24
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 12400
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_25
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_26
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 17360 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_split  caparray_connect_split_0
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 9920 0 1 9920
 box 80427 -26897 82908 -25907
 use cdac_unit_cap  cdac_unit_cap_1
 array 0 9 2480 0 8 2480
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -103 0 1 7155
 box 80396 -33828 83146 -31077
 << labels >>

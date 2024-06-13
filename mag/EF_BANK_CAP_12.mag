@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718225130
+timestamp 1718247631
 << dnwell >>
 rect 58658 -26536 83755 20910
 << nwell >>
@@ -343,248 +343,248 @@ rect 59053 -23876 59054 -23812
 rect 58988 -23877 59054 -23876
 rect 58991 -24043 59051 -23877
 use cap_array_half  cap_array_half_0
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 164043 0 -1 -5781
 box 80293 -26673 105363 -4081
 use cap_array_half  cap_array_half_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -21613 0 1 151
 box 80293 -26673 105363 -4081
 use caparray_connect_near  caparray_connect_near_0
-timestamp 1718225130
+timestamp 1718247631
 transform -1 0 151643 0 -1 -28101
 box 80427 -26673 82908 -26177
 use cdac_cross2_short  cdac_cross2_short_0
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 14880 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_2
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -2480 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_3
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 0 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_6
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_7
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 9920 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross2_short  cdac_cross2_short_8
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 0
 box 65895 -3386 66615 -2244
 use cdac_cross_short  cdac_cross_short_0
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 64691
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_1
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 14880 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_2
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_3
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -2480 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_4
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 0 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_5
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_6
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 4960 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_7
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_8
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 9920 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_9
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 -22320
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_10
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -75281
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_11
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -77761
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_12
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -87681
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_13
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -82721
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_14
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -85201
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_15
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 82051
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_16
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 82051
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_17
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 47309
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_18
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 49789
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_19
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 52269
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_20
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 54749
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_21
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 57229
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_22
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 59709
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_23
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 62189
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_24
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 64691
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_25
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 67171
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_26
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 69651
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_27
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 72131
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_28
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 74611
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_29
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 77091
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_30
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 79571
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_31
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 85201 -1 0 44829
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_32
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -80241
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_33
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -72801
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_34
-timestamp 1718225130
+timestamp 1718247631
 transform 0 -1 57229 1 0 -70321
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_35
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 72131
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_36
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 69651
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_37
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 67171
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_38
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 79571
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_39
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 77091
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_40
-timestamp 1718225130
+timestamp 1718247631
 transform 0 1 62881 -1 0 74611
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_41
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 14880 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_42
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 12400 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_43
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 9920 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_44
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 7440 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_45
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 4960 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_46
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 2480 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_47
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 0 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_48
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -2480 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_cross_short  cdac_cross_short_49
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -4960 0 1 22342
 box 65895 -3386 66615 -2266
 use cdac_ratioed_cap  cdac_ratioed_cap_0
 array 0 9 2480 0 0 2797
-timestamp 1718225130
+timestamp 1718247631
 transform 1 0 -21716 0 1 29649
 box 80396 -33851 83146 -31078
 << labels >>

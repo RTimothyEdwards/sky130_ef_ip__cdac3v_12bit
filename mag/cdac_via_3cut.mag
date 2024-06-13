@@ -1,9 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718157421
-<< checkpaint >>
-rect 52740 -33138 52792 -32927
+timestamp 1718247631
 << metal1 >>
 rect 52740 -32934 52792 -32927
 rect 52740 -33138 52792 -33131
