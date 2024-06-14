@@ -66,7 +66,7 @@ Creating placeholder cell definition.
 Call to undefined subcircuit simple_analog_switch
 Creating placeholder cell definition.
 
-Reading setup file /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Reading setup file /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
 
 Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
 No property value found for device sky130_fd_pr__res_generic_nd__hv
@@ -250,8 +250,8 @@ No property value found for device sky130_fd_pr__cap_mim_m3_2
 No property mult found for device sky130_fd_pr__cap_mim_m3_2
 No property perim found for device sky130_fd_pr__cap_mim_m3_2
 No property mf found for device sky130_fd_pr__cap_mim_m3_2
-Comparison output logged to file sky130_ef_ip__cdac12bit_comp.out
-Logging to file "sky130_ef_ip__cdac12bit_comp.out" enabled
+Comparison output logged to file sky130_ef_ip__cdac3v_12bit_comp.out
+Logging to file "sky130_ef_ip__cdac3v_12bit_comp.out" enabled
 Circuit sky130_fd_pr__pfet_g5v0d10v5 contains no devices.
 Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
 Circuit sky130_fd_pr__diode_pw2nd_05v5 contains no devices.
@@ -456,8 +456,8 @@ Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
 
   Flattening non-matched subcircuits EF_AMUX21x EF_AMUX21x
 
-Flattening instances of EF_AMUX21x in file ../netlist/layout/sky130_ef_ip__cdac12bit.spice
-Flattening instances of EF_AMUX21x in file ../netlist/schematic/sky130_ef_ip__cdac12bit.spice
+Flattening instances of EF_AMUX21x in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
+Flattening instances of EF_AMUX21x in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
 
 Contents of circuit 1:  Circuit: 'EF_SW_RST'
 Circuit EF_SW_RST contains 2 device instances.
@@ -473,8 +473,8 @@ Circuit 1 contains 12 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
 
   Flattening non-matched subcircuits EF_SW_RST EF_SW_RST
 
-Flattening instances of EF_SW_RST in file ../netlist/layout/sky130_ef_ip__cdac12bit.spice
-Flattening instances of EF_SW_RST in file ../netlist/schematic/sky130_ef_ip__cdac12bit.spice
+Flattening instances of EF_SW_RST in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
+Flattening instances of EF_SW_RST in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
 
 Contents of circuit 1:  Circuit: 'EF_AMUX0201_ARRAY1'
 Circuit EF_AMUX0201_ARRAY1 contains 36 device instances.
@@ -523,18 +523,18 @@ No more changes can be made to series/parallel networks.
 No more changes can be made to series/parallel networks.
   Flattening non-matched subcircuits EF_BANK_CAP_12 EF_BANK_CAP_12
 
-Flattening instances of EF_BANK_CAP_12 in file ../netlist/layout/sky130_ef_ip__cdac12bit.spice
-Flattening instances of EF_BANK_CAP_12 in file ../netlist/schematic/sky130_ef_ip__cdac12bit.spice
+Flattening instances of EF_BANK_CAP_12 in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
+Flattening instances of EF_BANK_CAP_12 in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
 
-Contents of circuit 1:  Circuit: 'sky130_ef_ip__cdac12bit'
-Circuit sky130_ef_ip__cdac12bit contains 33 device instances.
+Contents of circuit 1:  Circuit: 'sky130_ef_ip__cdac3v_12bit'
+Circuit sky130_ef_ip__cdac3v_12bit contains 33 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
   Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
   Class: simple_analog_switch_ena1v8 instances:   2
   Class: EF_AMUX0201_ARRAY1    instances:   1
 Circuit contains 34 nets.
-Contents of circuit 2:  Circuit: 'sky130_ef_ip__cdac12bit'
-Circuit sky130_ef_ip__cdac12bit contains 33 device instances.
+Contents of circuit 2:  Circuit: 'sky130_ef_ip__cdac3v_12bit'
+Circuit sky130_ef_ip__cdac3v_12bit contains 33 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
   Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
   Class: simple_analog_switch_ena1v8 instances:   2
@@ -548,5 +548,5 @@ Circuit 1 contains 33 nets,    Circuit 2 contains 33 nets.
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "sky130_ef_ip__cdac12bit_comp.out" disabled
+Logging to file "sky130_ef_ip__cdac3v_12bit_comp.out" disabled
 LVS Done.

@@ -157,7 +157,7 @@ rect 1874 -2602 2249 -2483
 rect 1874 -2680 2249 -2602
 << metal3 >>
 rect 1272 2956 1275 3164
-use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_0 ../../../dependencies/sky130_ef_ip__analog_switches/mag
+use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_0 ../dependencies/sky130_ef_ip__analog_switches/mag
 timestamp 1718247631
 transform 1 0 318 0 -1 4334
 box 0 0 4420 3648

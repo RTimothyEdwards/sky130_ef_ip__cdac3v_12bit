@@ -49,7 +49,7 @@ B 5 147.5 -82.5 152.5 -77.5 {name=DVSS dir=inout }
 B 5 147.5 -62.5 152.5 -57.5 {name=VSS dir=inout }
 B 5 147.5 -42.5 152.5 -37.5 {name=VH dir=inout }
 B 5 147.5 -22.5 152.5 -17.5 {name=VL dir=inout }
-B 5 147.5 57.5 152.5 62.5 {name=OUT dir=in }
+B 5 147.5 57.5 152.5 62.5 {name=OUT dir=out}
 B 5 -152.5 137.5 -147.5 142.5 {name=RST dir=in }
 B 5 147.5 77.5 152.5 82.5 {name=OUTNC dir=out}
 B 5 -152.5 77.5 -147.5 82.5 {name=SELD10 dir=in }
