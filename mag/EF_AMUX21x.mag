@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718247631
+timestamp 1719968784
 << locali >>
 rect 3410 -3153 3810 -3137
 rect 3410 -3324 3428 -3153
@@ -20,14 +20,13 @@ rect 4590 -5492 4702 -5458
 rect 4756 -5548 4790 -5412
 rect 3426 -7177 3794 -6990
 << metal1 >>
-rect 4880 -2560 5080 -2360
+rect 4558 -1966 4758 -1820
 rect 3410 -3153 3810 -3137
 rect 3410 -3324 3428 -3153
 rect 3789 -3324 3810 -3153
 rect 3410 -3340 3810 -3324
 rect 4351 -3514 4551 -3513
 rect 4126 -3662 4551 -3514
-rect 4351 -3713 4551 -3662
 rect 1240 -3925 3016 -3889
 rect 656 -4196 856 -3996
 rect 2980 -4009 3016 -3925
@@ -59,7 +58,6 @@ rect 3409 -6990 3810 -6974
 rect 3409 -7177 3426 -6990
 rect 3794 -7177 3810 -6990
 rect 3409 -7196 3810 -7177
-rect 4880 -7970 5080 -7770
 << via1 >>
 rect 2222 -1952 2596 -1833
 rect 1628 -2855 1997 -2735
@@ -85,6 +83,7 @@ rect 2209 -1726 2610 -1712
 rect 2209 -1952 2222 -1726
 rect 2596 -1952 2610 -1726
 rect 2209 -1965 2610 -1952
+rect 4880 -2560 5080 -2360
 rect 1609 -2734 2010 -2722
 rect 1609 -2945 1627 -2734
 rect 1997 -2945 2010 -2734
@@ -129,6 +128,7 @@ rect 1608 -7384 2010 -7369
 rect 1608 -7598 1622 -7384
 rect 1996 -7598 2010 -7384
 rect 1608 -7607 2010 -7598
+rect 4880 -7970 5080 -7770
 rect 2210 -8374 2610 -8364
 rect 2210 -8375 2222 -8374
 rect 2210 -8578 2221 -8375
@@ -207,28 +207,28 @@ timestamp 1718247631
 transform 1 0 664 0 -1 -1560
 box 0 0 4420 3648
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1718247631
+timestamp 1715205430
 transform 1 0 4635 0 -1 -5242
 box -38 -48 314 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1718247631
+timestamp 1715205430
 transform 1 0 4911 0 -1 -5242
 box -38 -48 130 592
 << labels >>
 flabel metal1 673 -5265 873 -5065 0 FreeSans 256 0 0 0 dvss
 port 7 nsew
-flabel metal1 4351 -3713 4551 -3513 0 FreeSans 256 0 0 0 vss
-port 3 nsew
 flabel metal1 656 -4196 856 -3996 0 FreeSans 256 0 0 0 vdd1p8
 port 1 nsew
 flabel metal1 666 -6729 866 -6529 0 FreeSans 256 0 0 0 sel
 port 6 nsew
 flabel metal1 666 -6079 866 -5879 0 FreeSans 256 0 0 0 vdd3p3
 port 0 nsew
-flabel metal1 4880 -2560 5080 -2360 0 FreeSans 256 0 0 0 b
+flabel metal2 4880 -2560 5080 -2360 0 FreeSans 256 0 0 0 b
 port 5 nsew
-flabel metal1 4880 -7970 5080 -7770 0 FreeSans 256 0 0 0 a
+flabel metal2 4880 -7970 5080 -7770 0 FreeSans 256 0 0 0 a
 port 4 nsew
 flabel metal3 4591 -6661 4791 -6461 0 FreeSans 256 0 0 0 vo
 port 2 nsew
+flabel metal1 4558 -1966 4758 -1820 0 FreeSans 256 0 0 0 vss
+port 3 nsew
 << end >>
