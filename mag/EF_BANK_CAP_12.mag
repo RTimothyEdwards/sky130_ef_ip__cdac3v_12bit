@@ -1,14 +1,14 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718247631
-<< dnwell >>
-rect 58658 -26536 83755 20910
+timestamp 1720193566
+<< error_s >>
+rect 71938 10806 72172 11342
+rect 72172 10742 72538 10806
+rect 70258 -16372 70492 -15836
+rect 70492 -16436 70858 -16372
 << nwell >>
-rect 58549 20704 83864 21019
-rect 58549 -26330 58864 20704
-rect 83549 -26330 83864 20704
-rect 58549 -26645 83864 -26330
+rect 58549 -26645 83864 21019
 << mvnsubdiff >>
 rect 58615 20933 83798 20953
 rect 58615 20899 58695 20933
@@ -618,39 +618,39 @@ flabel metal3 58348 -16436 58545 -16372 0 FreeSans 480 0 0 0 VSS
 port 10 nsew
 flabel metal3 83928 18182 84120 18246 0 FreeSans 480 0 0 0 D10
 port 13 nsew
-flabel comment 58853 -21366 58853 -21366 0 FreeSans 800 0 0 0 D2
-flabel comment 58858 -6610 58858 -6610 0 FreeSans 800 0 0 0 D2
-flabel comment 58850 -23849 58850 -23849 0 FreeSans 800 0 0 0 D4
-flabel comment 58864 -18883 58864 -18883 0 FreeSans 800 0 0 0 D4
-flabel comment 58859 -9083 58859 -9083 0 FreeSans 800 0 0 0 D4
-flabel comment 58859 -4132 58859 -4132 0 FreeSans 800 0 0 0 D4
-flabel comment 58847 5934 58847 5934 0 FreeSans 800 0 0 0 D7
-flabel comment 58847 10766 58847 10766 0 FreeSans 800 0 0 0 D7
-flabel comment 58837 3322 58837 3322 0 FreeSans 800 0 0 0 D9
-flabel comment 58843 8414 58843 8414 0 FreeSans 800 0 0 0 D9
-flabel comment 58859 13375 58859 13375 0 FreeSans 800 0 0 0 D9
-flabel comment 58855 851 58855 851 0 FreeSans 800 0 0 0 D11
-flabel comment 58855 5813 58855 5813 0 FreeSans 800 0 0 0 D11
-flabel comment 58855 10892 58855 10892 0 FreeSans 800 0 0 0 D11
-flabel comment 58859 15862 58859 15862 0 FreeSans 800 0 0 0 D11
-flabel comment 58877 -13922 58877 -13922 0 FreeSans 800 0 0 0 D0
-flabel comment 58889 -16402 58889 -16402 0 FreeSans 800 0 0 0 VSS
-flabel comment 58868 -11570 58868 -11570 0 FreeSans 800 0 0 0 D1
-flabel comment 83576 -11569 83576 -11569 0 FreeSans 800 0 0 0 D1
-flabel comment 83582 -19010 83582 -19010 0 FreeSans 800 0 0 0 D3
-flabel comment 83584 -14052 83584 -14052 0 FreeSans 800 0 0 0 D3
-flabel comment 83579 -8968 83579 -8968 0 FreeSans 800 0 0 0 D3
-flabel comment 83574 -21482 83574 -21482 0 FreeSans 800 0 0 0 D5
-flabel comment 83563 -16524 83563 -16524 0 FreeSans 800 0 0 0 D5
-flabel comment 83563 -11441 83563 -11441 0 FreeSans 800 0 0 0 D5
-flabel comment 83563 -6489 83563 -6489 0 FreeSans 800 0 0 0 D5
-flabel comment 83580 10775 83580 10775 0 FreeSans 800 0 0 0 VSS
-flabel comment 83572 8295 83572 8295 0 FreeSans 800 0 0 0 D6
-flabel comment 83584 977 83584 977 0 FreeSans 800 0 0 0 D8
-flabel comment 83573 15736 83573 15736 0 FreeSans 800 0 0 0 D8
-flabel comment 83585 -1497 83585 -1497 0 FreeSans 800 0 0 0 D10
-flabel comment 83568 13253 83568 13253 0 FreeSans 800 0 0 0 D10
-flabel comment 83572 18212 83572 18212 0 FreeSans 800 0 0 0 D10
-flabel comment 83544 -16401 83544 -16401 0 FreeSans 800 0 0 0 D1
-flabel comment 83561 3460 83561 3460 0 FreeSans 800 0 0 0 D10
+flabel space 58853 -21366 58853 -21366 0 FreeSans 800 0 0 0 D2
+flabel space 58858 -6610 58858 -6610 0 FreeSans 800 0 0 0 D2
+flabel space 58850 -23849 58850 -23849 0 FreeSans 800 0 0 0 D4
+flabel space 58864 -18883 58864 -18883 0 FreeSans 800 0 0 0 D4
+flabel space 58859 -9083 58859 -9083 0 FreeSans 800 0 0 0 D4
+flabel space 58859 -4132 58859 -4132 0 FreeSans 800 0 0 0 D4
+flabel space 58847 5934 58847 5934 0 FreeSans 800 0 0 0 D7
+flabel space 58847 10766 58847 10766 0 FreeSans 800 0 0 0 D7
+flabel space 58837 3322 58837 3322 0 FreeSans 800 0 0 0 D9
+flabel space 58843 8414 58843 8414 0 FreeSans 800 0 0 0 D9
+flabel space 58859 13375 58859 13375 0 FreeSans 800 0 0 0 D9
+flabel space 58855 851 58855 851 0 FreeSans 800 0 0 0 D11
+flabel space 58855 5813 58855 5813 0 FreeSans 800 0 0 0 D11
+flabel space 58855 10892 58855 10892 0 FreeSans 800 0 0 0 D11
+flabel space 58859 15862 58859 15862 0 FreeSans 800 0 0 0 D11
+flabel space 58877 -13922 58877 -13922 0 FreeSans 800 0 0 0 D0
+flabel space 58889 -16402 58889 -16402 0 FreeSans 800 0 0 0 VSS
+flabel space 58868 -11570 58868 -11570 0 FreeSans 800 0 0 0 D1
+flabel space 83576 -11569 83576 -11569 0 FreeSans 800 0 0 0 D1
+flabel space 83582 -19010 83582 -19010 0 FreeSans 800 0 0 0 D3
+flabel space 83584 -14052 83584 -14052 0 FreeSans 800 0 0 0 D3
+flabel space 83579 -8968 83579 -8968 0 FreeSans 800 0 0 0 D3
+flabel space 83574 -21482 83574 -21482 0 FreeSans 800 0 0 0 D5
+flabel space 83563 -16524 83563 -16524 0 FreeSans 800 0 0 0 D5
+flabel space 83563 -11441 83563 -11441 0 FreeSans 800 0 0 0 D5
+flabel space 83563 -6489 83563 -6489 0 FreeSans 800 0 0 0 D5
+flabel space 83580 10775 83580 10775 0 FreeSans 800 0 0 0 VSS
+flabel space 83572 8295 83572 8295 0 FreeSans 800 0 0 0 D6
+flabel space 83584 977 83584 977 0 FreeSans 800 0 0 0 D8
+flabel space 83573 15736 83573 15736 0 FreeSans 800 0 0 0 D8
+flabel space 83585 -1497 83585 -1497 0 FreeSans 800 0 0 0 D10
+flabel space 83568 13253 83568 13253 0 FreeSans 800 0 0 0 D10
+flabel space 83572 18212 83572 18212 0 FreeSans 800 0 0 0 D10
+flabel space 83544 -16401 83544 -16401 0 FreeSans 800 0 0 0 D1
+flabel space 83561 3460 83561 3460 0 FreeSans 800 0 0 0 D10
 << end >>
