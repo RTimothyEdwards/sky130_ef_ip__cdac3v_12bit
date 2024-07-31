@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1719968784
+timestamp 1722435879
 << locali >>
 rect 3410 -3153 3810 -3137
 rect 3410 -3324 3428 -3153
@@ -199,11 +199,11 @@ rect 4591 -8205 4600 -8010
 rect 4777 -8205 4787 -8010
 rect 4591 -8254 4787 -8205
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_1 ../dependencies/sky130_ef_ip__analog_switches/mag
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 664 0 1 -8770
 box 0 0 4420 3648
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_2
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 664 0 -1 -1560
 box 0 0 4420 3648
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag

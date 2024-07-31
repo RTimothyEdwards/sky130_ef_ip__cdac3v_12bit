@@ -11,6 +11,8 @@ Call to undefined subcircuit sky130_fd_pr__nfet_01v8
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
 Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd_11v0
+Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_2
@@ -59,14 +61,18 @@ Call to undefined subcircuit EF_AMUX21x
 Creating placeholder cell definition.
 Call to undefined subcircuit simple_analog_switch_ena1v8
 Creating placeholder cell definition.
+Call to undefined subcircuit minimal_n_switch_ena1v8
+Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_1
 Creating placeholder cell definition.
 Call to undefined subcircuit sky130_fd_pr__cap_mim_m3_2
 Creating placeholder cell definition.
 Call to undefined subcircuit simple_analog_switch
 Creating placeholder cell definition.
+Call to undefined subcircuit minimum_analog_switch
+Creating placeholder cell definition.
 
-Reading setup file /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Reading setup file /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
 
 Model sky130_fd_pr__res_generic_nd__hv pin 1 == 2
 No property value found for device sky130_fd_pr__res_generic_nd__hv
@@ -230,6 +236,8 @@ No property value found for device sky130_fd_pr__diode_pw2nd_05v5
 No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
 No property value found for device sky130_fd_pr__diode_pw2nd_11v0
 No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
+No property value found for device sky130_fd_pr__diode_pw2nd_11v0
+No property mult found for device sky130_fd_pr__diode_pw2nd_11v0
 No property area found for device sky130_fd_pr__cap_mim_m3_1
 No property value found for device sky130_fd_pr__cap_mim_m3_1
 No property mult found for device sky130_fd_pr__cap_mim_m3_1
@@ -252,11 +260,6 @@ No property perim found for device sky130_fd_pr__cap_mim_m3_2
 No property mf found for device sky130_fd_pr__cap_mim_m3_2
 Comparison output logged to file sky130_ef_ip__cdac3v_12bit_comp.out
 Logging to file "sky130_ef_ip__cdac3v_12bit_comp.out" enabled
-Circuit sky130_fd_pr__pfet_g5v0d10v5 contains no devices.
-Circuit sky130_fd_pr__nfet_g5v0d10v5 contains no devices.
-Circuit sky130_fd_pr__diode_pw2nd_05v5 contains no devices.
-Circuit sky130_fd_pr__nfet_01v8 contains no devices.
-Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
 
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hvl__inv_2'
 Circuit sky130_fd_sc_hvl__inv_2 contains 4 device instances.
@@ -367,8 +370,44 @@ Circuit contains 4 nets.
 Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
 Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
 
-Circuit sky130_fd_pr__cap_mim_m3_1 contains no devices.
-Circuit sky130_fd_pr__cap_mim_m3_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'minimum_analog_switch'
+Circuit minimum_analog_switch contains 4 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   4
+Circuit contains 5 nets, and 1 disconnected pin.
+Contents of circuit 2:  Circuit: 'minimum_analog_switch'
+Circuit minimum_analog_switch contains 3 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   3
+Circuit contains 5 nets, and 1 disconnected pin.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'minimum_analog_switch'
+Circuit minimum_analog_switch contains 3 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   3
+Circuit contains 5 nets, and 1 disconnected pin.
+Contents of circuit 2:  Circuit: 'minimum_analog_switch'
+Circuit minimum_analog_switch contains 3 device instances.
+  Class: sky130_fd_pr__nfet_g5v0d10v5 instances:   3
+Circuit contains 5 nets, and 1 disconnected pin.
+
+Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
+Circuit 1 contains 5 nets,    Circuit 2 contains 5 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hvl__diode_2'
+Circuit sky130_fd_sc_hvl__diode_2 contains 1 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
+Circuit contains 2 nets, and 3 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hvl__diode_2'
+Circuit sky130_fd_sc_hvl__diode_2 contains 1 device instances.
+  Class: sky130_fd_pr__diode_pw2nd_11v0 instances:   1
+Circuit contains 2 nets, and 3 disconnected pins.
+
+Circuit 1 contains 1 devices, Circuit 2 contains 1 devices.
+Circuit 1 contains 2 nets,    Circuit 2 contains 2 nets.
+
 
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__inv_2'
 Circuit sky130_fd_sc_hd__inv_2 contains 4 device instances.
@@ -440,11 +479,32 @@ Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
 Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
 
 
+Contents of circuit 1:  Circuit: 'minimal_n_switch_ena1v8'
+Circuit minimal_n_switch_ena1v8 contains 6 device instances.
+  Class: minimum_analog_switch instances:   1
+  Class: sky130_fd_sc_hvl__diode_2 instances:   1
+  Class: sky130_fd_sc_hvl__inv_2 instances:   2
+  Class: sky130_fd_sc_hvl__decap_4 instances:   1
+  Class: sky130_fd_sc_hvl__lsbuflv2hv_1 instances:   1
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'minimal_n_switch_ena1v8'
+Circuit minimal_n_switch_ena1v8 contains 6 device instances.
+  Class: minimum_analog_switch instances:   1
+  Class: sky130_fd_sc_hvl__diode_2 instances:   1
+  Class: sky130_fd_sc_hvl__inv_2 instances:   2
+  Class: sky130_fd_sc_hvl__decap_4 instances:   1
+  Class: sky130_fd_sc_hvl__lsbuflv2hv_1 instances:   1
+Circuit contains 10 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
+
+
 Contents of circuit 1:  Circuit: 'EF_AMUX21x'
 Circuit EF_AMUX21x contains 3 device instances.
   Class: sky130_fd_sc_hd__inv_2 instances:   1
   Class: simple_analog_switch_ena1v8 instances:   2
-Circuit contains 9 nets, and 2 disconnected pins.
+Circuit contains 9 nets.
 Contents of circuit 2:  Circuit: 'EF_AMUX21x'
 Circuit EF_AMUX21x contains 3 device instances.
   Class: sky130_fd_sc_hd__inv_2 instances:   1
@@ -454,48 +514,40 @@ Circuit contains 9 nets.
 Circuit 1 contains 3 devices, Circuit 2 contains 3 devices.
 Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
 
-  Flattening non-matched subcircuits EF_AMUX21x EF_AMUX21x
-
-Flattening instances of EF_AMUX21x in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
-Flattening instances of EF_AMUX21x in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
 
 Contents of circuit 1:  Circuit: 'EF_SW_RST'
 Circuit EF_SW_RST contains 2 device instances.
-  Class: simple_analog_switch_ena1v8 instances:   2
-Circuit contains 12 nets.
+  Class: simple_analog_switch_ena1v8 instances:   1
+  Class: minimal_n_switch_ena1v8 instances:   1
+Circuit contains 7 nets.
 Contents of circuit 2:  Circuit: 'EF_SW_RST'
 Circuit EF_SW_RST contains 2 device instances.
-  Class: simple_analog_switch_ena1v8 instances:   2
+  Class: simple_analog_switch_ena1v8 instances:   1
+  Class: minimal_n_switch_ena1v8 instances:   1
 Circuit contains 7 nets.
 
 Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
-Circuit 1 contains 12 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
 
-  Flattening non-matched subcircuits EF_SW_RST EF_SW_RST
-
-Flattening instances of EF_SW_RST in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
-Flattening instances of EF_SW_RST in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
 
 Contents of circuit 1:  Circuit: 'EF_AMUX0201_ARRAY1'
-Circuit EF_AMUX0201_ARRAY1 contains 36 device instances.
-  Class: sky130_fd_sc_hd__inv_2 instances:  12
-  Class: simple_analog_switch_ena1v8 instances:  24
-Circuit contains 66 nets.
+Circuit EF_AMUX0201_ARRAY1 contains 12 device instances.
+  Class: EF_AMUX21x            instances:  12
+Circuit contains 30 nets.
 Contents of circuit 2:  Circuit: 'EF_AMUX0201_ARRAY1'
-Circuit EF_AMUX0201_ARRAY1 contains 36 device instances.
-  Class: sky130_fd_sc_hd__inv_2 instances:  12
-  Class: simple_analog_switch_ena1v8 instances:  24
-Circuit contains 66 nets.
+Circuit EF_AMUX0201_ARRAY1 contains 12 device instances.
+  Class: EF_AMUX21x            instances:  12
+Circuit contains 30 nets.
 
-Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
-Circuit 1 contains 42 nets,    Circuit 2 contains 42 nets.
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 30 nets,    Circuit 2 contains 30 nets.
 
 
 Contents of circuit 1:  Circuit: 'EF_BANK_CAP_12'
 Circuit EF_BANK_CAP_12 contains 380 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances: 190
   Class: sky130_fd_pr__cap_mim_m3_2 instances: 190
-Circuit contains 15 nets, and 2 disconnected pins.
+Circuit contains 15 nets, and 1 disconnected pin.
 Contents of circuit 2:  Circuit: 'EF_BANK_CAP_12'
 Circuit EF_BANK_CAP_12 contains 34 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  17
@@ -509,7 +561,7 @@ Contents of circuit 1:  Circuit: 'EF_BANK_CAP_12'
 Circuit EF_BANK_CAP_12 contains 30 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
   Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
-Circuit contains 15 nets, and 2 disconnected pins.
+Circuit contains 15 nets, and 1 disconnected pin.
 Contents of circuit 2:  Circuit: 'EF_BANK_CAP_12'
 Circuit EF_BANK_CAP_12 contains 30 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
@@ -524,24 +576,24 @@ No more changes can be made to series/parallel networks.
   Flattening non-matched subcircuits EF_BANK_CAP_12 EF_BANK_CAP_12
 
 Flattening instances of EF_BANK_CAP_12 in file ../netlist/layout/sky130_ef_ip__cdac3v_12bit.spice
-Flattening instances of EF_BANK_CAP_12 in file ../netlist/schematic/sky130_ef_ip__cdac3v_12bit.spice
+Flattening instances of EF_BANK_CAP_12 in file /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 
 Contents of circuit 1:  Circuit: 'sky130_ef_ip__cdac3v_12bit'
-Circuit sky130_ef_ip__cdac3v_12bit contains 33 device instances.
+Circuit sky130_ef_ip__cdac3v_12bit contains 32 device instances.
   Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
   Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
-  Class: simple_analog_switch_ena1v8 instances:   2
+  Class: EF_SW_RST             instances:   1
+  Class: EF_AMUX0201_ARRAY1    instances:   1
+Circuit contains 33 nets.
+Contents of circuit 2:  Circuit: 'sky130_ef_ip__cdac3v_12bit'
+Circuit sky130_ef_ip__cdac3v_12bit contains 32 device instances.
+  Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
+  Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
+  Class: EF_SW_RST             instances:   1
   Class: EF_AMUX0201_ARRAY1    instances:   1
 Circuit contains 34 nets.
-Contents of circuit 2:  Circuit: 'sky130_ef_ip__cdac3v_12bit'
-Circuit sky130_ef_ip__cdac3v_12bit contains 33 device instances.
-  Class: sky130_fd_pr__cap_mim_m3_1 instances:  15
-  Class: sky130_fd_pr__cap_mim_m3_2 instances:  15
-  Class: simple_analog_switch_ena1v8 instances:   2
-  Class: EF_AMUX0201_ARRAY1    instances:   1
-Circuit contains 35 nets.
 
-Circuit 1 contains 33 devices, Circuit 2 contains 33 devices.
+Circuit 1 contains 32 devices, Circuit 2 contains 32 devices.
 Circuit 1 contains 33 nets,    Circuit 2 contains 33 nets.
 
 

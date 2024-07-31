@@ -1,12 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1718247631
-<< error_s >>
-rect 91871 -16443 92105 -15987
-rect 91791 -16523 92185 -16443
-rect 91791 -16587 92471 -16523
-rect 91791 -16667 92185 -16587
+timestamp 1722438219
 << metal4 >>
 rect 85028 -5487 85748 -5427
 rect 87508 -5487 88228 -5427
@@ -430,117 +425,117 @@ timestamp 1718247631
 transform -1 0 178216 0 -1 -40674
 box 80427 -26673 82908 -26177
 use caparray_connect_none  caparray_connect_none_0
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 -2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_1
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 9920 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_2
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_3
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_4
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -2480 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_5
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 7440
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_6
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 12400
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_7
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_8
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -2480 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_9
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 4960 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_10
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_11
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 -4960 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_12
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 2480 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_13
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 7440 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_14
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 12400 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_15
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 0 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_16
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 14882 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_17
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 2481 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_18
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 12401 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_19
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 -2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_20
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 0
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_21
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 2480
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_22
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 4960
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_23
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 7440
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_24
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 12400
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_25
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 9920
 box 85388 -19191 87868 -19003
 use caparray_connect_none  caparray_connect_none_26
-timestamp 1718247631
+timestamp 1722435879
 transform 1 0 17360 0 1 14880
 box 85388 -19191 87868 -19003
 use caparray_connect_split  caparray_connect_split_0
-timestamp 1718247631
+timestamp 1720193621
 transform 1 0 9920 0 1 9920
-box 80427 -26897 82908 -25907
+box 80427 -26897 82908 -26177
 use cdac_unit_cap  cdac_unit_cap_1
 array 0 9 2480 0 8 2480
 timestamp 1718247631
