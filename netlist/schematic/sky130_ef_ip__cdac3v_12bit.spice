@@ -103,10 +103,10 @@ XC5 D11 VP2 sky130_fd_pr__cap_mim_m3_2 W=7 L=7 m=32
 ** sch_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SC_CAP.sch
 .subckt EF_SC_CAP VP1 VP2 VSS
 *.PININFO VP1:B VP2:B VSS:B
-XC13 VP1 VP2 sky130_fd_pr__cap_mim_m3_1 W=7 L=7.11 m=1
-XC6 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=7 L=7.11 m=9
-XC1 VSS VSS sky130_fd_pr__cap_mim_m3_2 W=7 L=7.11 m=9
-XC2 VP2 VP1 sky130_fd_pr__cap_mim_m3_2 W=7 L=7.11 m=1
+XC13 VP1 VP2 sky130_fd_pr__cap_mim_m3_1 W=7 L=7.055 m=1
+XC6 VSS VSS sky130_fd_pr__cap_mim_m3_1 W=7 L=7.055 m=9
+XC1 VSS VSS sky130_fd_pr__cap_mim_m3_2 W=7 L=7.055 m=9
+XC2 VP2 VP1 sky130_fd_pr__cap_mim_m3_2 W=7 L=7.055 m=1
 .ends
 
 

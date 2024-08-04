@@ -34,23 +34,28 @@ sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)
 sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
 sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
 Number of devices: 12                      |Number of devices: 12                      
-Number of nets: 12                         |Number of nets: 12                         
+Number of nets: 14 **Mismatch**            |Number of nets: 12 **Mismatch**            
 ---------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
+NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: sky130_fd_sc_hvl__lsbuflv2hv_1  |Circuit 2: sky130_fd_sc_hvl__lsbuflv2hv_1  
--------------------------------------------|-------------------------------------------
-VPWR                                       |VPWR                                       
-VPB                                        |VPB                                        
-LVPWR                                      |LVPWR                                      
-X                                          |X                                          
-A                                          |A                                          
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
+
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hvl__lsbuflv2hv_1 and sky130_fd_sc_hvl__lsbuflv2hv_1 are equivalent.
+Net: VGND                                  |Net: VGND                                  
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 4   
+                                           |  sky130_fd_pr__nfet_01v8/(1|3) = 2        
+                                           |                                           
+Net: VPWR                                  |Net: VPWR                                  
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 4   
+                                           |                                           
+Net: VGND_uq0                              |(no matching net)                          
+  sky130_fd_pr__nfet_01v8/(1|3) = 2        |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+                                           |                                           
+Net: VPWR_uq0                              |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+  Flattening non-matched subcircuits sky130_fd_sc_hvl__lsbuflv2hv_1 sky130_fd_sc_hvl__lsbuflv2hv_1
 Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLHCT5 in circuit simple_analog_switch (0)(1 instance)
 Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KL97Y6 in circuit simple_analog_switch (0)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EJGQFX in circuit simple_analog_switch (0)(1 instance)
@@ -194,24 +199,27 @@ Circuit 1: simple_analog_switch_ena1v8     |Circuit 2: simple_analog_switch_ena1
 -------------------------------------------|-------------------------------------------
 sky130_fd_pr__diode_pw2nd_05v5 (1)         |sky130_fd_pr__diode_pw2nd_05v5 (1)         
 sky130_fd_sc_hvl__inv_2 (2)                |sky130_fd_sc_hvl__inv_2 (2)                
-sky130_fd_sc_hvl__lsbuflv2hv_1 (1)         |sky130_fd_sc_hvl__lsbuflv2hv_1 (1)         
+sky130_fd_pr__nfet_g5v0d10v5 (12->4)       |sky130_fd_pr__nfet_g5v0d10v5 (12->4)       
+sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
 simple_analog_switch (1)                   |simple_analog_switch (1)                   
 sky130_fd_sc_hvl__decap_4 (2->1)           |sky130_fd_sc_hvl__decap_4 (2->1)           
-Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 10                         |Number of nets: 10                         
+Number of devices: 17                      |Number of devices: 17                      
+Number of nets: 15                         |Number of nets: 15                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: simple_analog_switch_ena1v8     |Circuit 2: simple_analog_switch_ena1v8     
 -------------------------------------------|-------------------------------------------
-dvdd                                       |dvdd                                       
 avss                                       |avss                                       
 out                                        |out                                        
 in                                         |in                                         
+dvdd                                       |dvdd                                       
+avdd                                       |avdd                                       
 on                                         |on                                         
 dvss                                       |dvss                                       
-avdd                                       |avdd                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes simple_analog_switch_ena1v8 and simple_analog_switch_ena1v8 are equivalent.
@@ -221,20 +229,23 @@ Circuit 1: minimal_n_switch_ena1v8         |Circuit 2: minimal_n_switch_ena1v8
 -------------------------------------------|-------------------------------------------
 minimum_analog_switch (1)                  |minimum_analog_switch (1)                  
 sky130_fd_sc_hvl__inv_2 (2)                |sky130_fd_sc_hvl__inv_2 (2)                
-sky130_fd_sc_hvl__lsbuflv2hv_1 (1)         |sky130_fd_sc_hvl__lsbuflv2hv_1 (1)         
+sky130_fd_pr__nfet_g5v0d10v5 (12->4)       |sky130_fd_pr__nfet_g5v0d10v5 (12->4)       
+sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
 sky130_fd_sc_hvl__diode_2 (1)              |sky130_fd_sc_hvl__diode_2 (1)              
 sky130_fd_sc_hvl__decap_4 (1)              |sky130_fd_sc_hvl__decap_4 (1)              
-Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 10                         |Number of nets: 10                         
+Number of devices: 17                      |Number of devices: 17                      
+Number of nets: 15                         |Number of nets: 15                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: minimal_n_switch_ena1v8         |Circuit 2: minimal_n_switch_ena1v8         
 -------------------------------------------|-------------------------------------------
+dvdd                                       |dvdd                                       
 dvss                                       |dvss                                       
 avdd                                       |avdd                                       
-dvdd                                       |dvdd                                       
 out                                        |out                                        
 in                                         |in                                         
 avss                                       |avss                                       
@@ -346,10 +357,10 @@ Flattening unmatched subcell EF_LSB_CAP in circuit EF_BANK_CAP_12 (1)(1 instance
 Flattening unmatched subcell EF_MSB_CAP in circuit EF_BANK_CAP_12 (1)(1 instance)
 Flattening unmatched subcell EF_SC_CAP in circuit EF_BANK_CAP_12 (1)(1 instance)
 
-Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26645#
+Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26640#
 Class EF_BANK_CAP_12 (0):  Merged 350 parallel devices.
 Class EF_BANK_CAP_12 (1):  Merged 4 parallel devices.
-Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26645#
+Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26640#
 Subcircuit summary:
 Circuit 1: EF_BANK_CAP_12                  |Circuit 2: EF_BANK_CAP_12                  
 -------------------------------------------|-------------------------------------------
@@ -379,7 +390,7 @@ D6                                         |D6
 D7                                         |D7                                         
 D11                                        |D11                                        
 VSS                                        |VSS                                        
-w_58549_n26645#                            |(no matching pin)                          
+w_58549_n26640#                            |(no matching pin)                          
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_BANK_CAP_12 and EF_BANK_CAP_12 are equivalent.
