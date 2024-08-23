@@ -1,9 +1,5 @@
 * NGSPICE file created from sky130_ef_ip__cdac3v_12bit.ext - technology: sky130A
 
-.subckt sky130_fd_pr__diode_pw2nd_05v5_FT76RJ a_n147_n147# a_n45_n45#
-X0 a_n147_n147# a_n45_n45# sky130_fd_pr__diode_pw2nd_05v5 perim=1.8e+06 area=2.025e+11
-.ends
-
 .subckt sky130_fd_sc_hvl__inv_2 A VGND VNB VPB VPWR Y
 X0 VPWR A Y VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.4275 pd=3.57 as=0.21 ps=1.78 w=1.5 l=0.5
 X1 Y A VGND VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0.105 pd=1.03 as=0.21375 ps=2.07 w=0.75 l=0.5
@@ -32,6 +28,10 @@ X16 VGND_uq0 a_772_151# a_1197_107# VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0.21 pd=
 X17 a_772_151# a_404_1133# LVPWR LVPWR sky130_fd_pr__pfet_01v8_hvt ad=0.2478 pd=2.27 as=0.1176 ps=1.12 w=0.84 l=0.15
 X18 a_1197_107# a_772_151# VGND_uq0 VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0.21 pd=1.78 as=0.3975 ps=3.53 w=1.5 l=0.5
 X19 VPWR a_504_1221# a_1197_107# VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.1113 pd=1.37 as=0.1365 ps=1.49 w=0.42 l=1
+.ends
+
+.subckt sky130_fd_sc_hvl__diode_2 DIODE VGND VNB VPB VPWR
+X0 VNB DIODE sky130_fd_pr__diode_pw2nd_11v0 perim=3.16e+06 area=6.072e+11
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_KLHCT5 a_n345_n200# a_29_n297# a_n129_n297# a_187_n297#
@@ -72,14 +72,14 @@ X0 VGND VPWR VGND VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0.19875 pd=2.03 as=0.4125 
 X1 VPWR VGND VPWR VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.265 pd=2.53 as=0.55 ps=5.1 w=1 l=1
 .ends
 
-.subckt simple_analog_switch_ena1v8 in dvdd on out avss dvss avdd
-Xsky130_fd_pr__diode_pw2nd_05v5_FT76RJ_0 dvss on sky130_fd_pr__diode_pw2nd_05v5_FT76RJ
+.subckt simple_analog_switch_ena1v8 in dvdd on out avss avdd dvss
 Xsky130_fd_sc_hvl__inv_2_0 simple_analog_switch_0/off dvss dvss avdd avdd simple_analog_switch_0/on
 + sky130_fd_sc_hvl__inv_2
 Xsky130_fd_sc_hvl__inv_2_1 sky130_fd_sc_hvl__inv_2_1/A dvss dvss avdd avdd simple_analog_switch_0/off
 + sky130_fd_sc_hvl__inv_2
 Xsky130_fd_sc_hvl__lsbuflv2hv_1_0 on dvdd dvss avdd avdd sky130_fd_sc_hvl__inv_2_1/A
 + avdd dvss dvss sky130_fd_sc_hvl__lsbuflv2hv_1
+Xsky130_fd_sc_hvl__diode_2_0 on dvss dvss avdd avdd sky130_fd_sc_hvl__diode_2
 Xsimple_analog_switch_0 simple_analog_switch_0/on simple_analog_switch_0/off out avdd
 + avss in simple_analog_switch
 Xsky130_fd_sc_hvl__decap_4_0 dvss dvss avdd avdd sky130_fd_sc_hvl__decap_4
@@ -102,11 +102,7 @@ XXM2 vss out out off sky130_fd_pr__nfet_g5v0d10v5_SF7DK5
 XXM3 in out vss on on out sky130_fd_pr__nfet_g5v0d10v5_VDJU7P
 .ends
 
-.subckt sky130_fd_sc_hvl__diode_2 DIODE VGND VNB VPB VPWR
-X0 VNB DIODE sky130_fd_pr__diode_pw2nd_11v0 perim=3.16e+06 area=6.072e+11
-.ends
-
-.subckt minimal_n_switch_ena1v8 in dvdd on out avss dvss avdd
+.subckt minimal_n_switch_ena1v8 in dvdd on out avdd avss dvss
 Xminimum_analog_switch_0 minimum_analog_switch_0/on sky130_fd_sc_hvl__inv_2_1/Y in
 + avdd avss out minimum_analog_switch
 Xsky130_fd_sc_hvl__inv_2_0 sky130_fd_sc_hvl__inv_2_1/Y dvss dvss avdd avdd minimum_analog_switch_0/on
@@ -120,8 +116,8 @@ Xsky130_fd_sc_hvl__decap_4_0 dvss dvss avdd avdd sky130_fd_sc_hvl__decap_4
 .ends
 
 .subckt EF_SW_RST VP2 VP1 RST DVSS AVSS DVDD AVDD
-Xsimple_analog_switch_ena1v8_1 AVSS DVDD RST VP2 AVSS DVSS AVDD simple_analog_switch_ena1v8
-Xminimal_n_switch_ena1v8_0 VP1 DVDD RST AVSS AVSS DVSS AVDD minimal_n_switch_ena1v8
+Xsimple_analog_switch_ena1v8_1 AVSS DVDD RST VP2 AVSS AVDD DVSS simple_analog_switch_ena1v8
+Xminimal_n_switch_ena1v8_0 VP1 DVDD RST AVSS AVDD AVSS DVSS minimal_n_switch_ena1v8
 .ends
 
 .subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
@@ -133,13 +129,13 @@ X3 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1
 
 .subckt EF_AMUX21x a sel b vdd1p8 vo vdd3p3 vss dvss
 Xsky130_fd_sc_hd__inv_2_0 sel dvss dvss vdd1p8 vdd1p8 sky130_fd_sc_hd__inv_2_0/Y sky130_fd_sc_hd__inv_2
-Xsimple_analog_switch_ena1v8_1 a vdd1p8 sel vo vss dvss vdd3p3 simple_analog_switch_ena1v8
-Xsimple_analog_switch_ena1v8_2 b vdd1p8 sky130_fd_sc_hd__inv_2_0/Y vo vss dvss vdd3p3
+Xsimple_analog_switch_ena1v8_1 a vdd1p8 sel vo vss vdd3p3 dvss simple_analog_switch_ena1v8
+Xsimple_analog_switch_ena1v8_2 b vdd1p8 sky130_fd_sc_hd__inv_2_0/Y vo vss vdd3p3 dvss
 + simple_analog_switch_ena1v8
 .ends
 
 .subckt EF_AMUX0201_ARRAY1 SELD2 SELD3 SELD0 SELD1 SELD4 SELD5 SELD9 SELD8 SELD7 SELD6
-+ D8 D6 VH VL SELD10 SELD11 D11 D1 D5 D0 D7 DVDD D10 D9 D4 D2 D3 VDD DVSS VSS
++ D8 D6 VH VL SELD10 SELD11 D11 D1 D5 D0 D7 DVDD D10 D9 D4 D2 DVSS D3 VDD VSS
 Xx1 VH SELD3 VL DVDD D3 VDD VSS DVSS EF_AMUX21x
 Xx3 VH SELD8 VL DVDD D8 VDD VSS DVSS EF_AMUX21x
 Xx2 VH SELD4 VL DVDD D4 VDD VSS DVSS EF_AMUX21x
@@ -364,8 +360,8 @@ X0 c1_81071_n33170# m3_80891_n32900# sky130_fd_pr__cap_mim_m3_1 l=7.055 w=7
 X1 c2_81071_n33170# c1_81071_n33170# sky130_fd_pr__cap_mim_m3_2 l=7.055 w=7
 .ends
 
-.subckt EF_BANK_CAP_12 D0 D4 VP1 D9 D5 D1 D6 D7 D3 D10 D11 w_58549_n26640# D8 VP2
-+ D2 VSS
+.subckt EF_BANK_CAP_12 D8 D0 D4 VP1 D9 D5 D1 D2 D6 D7 D3 D10 D11 w_58549_n26640# VP2
++ VSS
 Xcap_array_half_0 VSS VSS D8 VSS VSS D11 VSS VSS VSS D9 VSS VSS VSS VSS VSS D8 VSS
 + VSS VSS VSS D7 VSS VSS D9 D10 VSS VSS D10 D11 D9 D10 VSS VSS D6 VSS D10 VSS VSS
 + VSS VSS VSS VSS VP2 D7 VSS VSS VSS VSS VP2 VSS D11 VSS VSS D11 cap_array_half
@@ -388,9 +384,9 @@ Xcdac_ratioed_cap_0[9] VSS VSS VSS cdac_ratioed_cap
 + VDD DVDD DVSS VSS VH VL OUT RST SELD10 SELD11 OUTNC SELD0 SELD1
 Xx1 OUT OUTNC RST DVSS VSS DVDD VDD EF_SW_RST
 Xx3 SELD2 SELD3 SELD0 SELD1 SELD4 SELD5 SELD9 SELD8 SELD7 SELD6 x4/D8 x4/D6 VH VL
-+ SELD10 SELD11 x4/D11 x4/D1 x4/D5 x4/D0 x4/D7 DVDD x4/D10 x4/D9 x4/D4 x4/D2 x4/D3
-+ VDD DVSS VSS EF_AMUX0201_ARRAY1
-Xx4 x4/D0 x4/D4 OUTNC x4/D9 x4/D5 x4/D1 x4/D6 x4/D7 x4/D3 x4/D10 x4/D11 VDD x4/D8
-+ OUT x4/D2 VSS EF_BANK_CAP_12
++ SELD10 SELD11 x4/D11 x4/D1 x4/D5 x4/D0 x4/D7 DVDD x4/D10 x4/D9 x4/D4 x4/D2 DVSS
++ x4/D3 VDD VSS EF_AMUX0201_ARRAY1
+Xx4 x4/D8 x4/D0 x4/D4 OUTNC x4/D9 x4/D5 x4/D1 x4/D2 x4/D6 x4/D7 x4/D3 x4/D10 x4/D11
++ VDD OUT VSS EF_BANK_CAP_12
 .ends
 

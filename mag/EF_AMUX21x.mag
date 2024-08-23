@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1722435879
+timestamp 1724445202
 << locali >>
 rect 3410 -3153 3810 -3137
 rect 3410 -3324 3428 -3153
@@ -53,7 +53,9 @@ rect 2901 -6405 2937 -6342
 rect 4353 -6350 4359 -6342
 rect 4531 -6350 4537 -6298
 rect 1224 -6441 2937 -6405
-rect 666 -6729 866 -6529
+rect 666 -6581 866 -6529
+rect 666 -6644 877 -6581
+rect 666 -6729 866 -6644
 rect 3409 -6990 3810 -6974
 rect 3409 -7177 3426 -6990
 rect 3794 -7177 3810 -6990
@@ -199,19 +201,19 @@ rect 4591 -8205 4600 -8010
 rect 4777 -8205 4787 -8010
 rect 4591 -8254 4787 -8205
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_1 ../dependencies/sky130_ef_ip__analog_switches/mag
-timestamp 1722435879
+timestamp 1724441501
 transform 1 0 664 0 1 -8770
 box 0 0 4420 3648
 use simple_analog_switch_ena1v8  simple_analog_switch_ena1v8_2
-timestamp 1722435879
+timestamp 1724441501
 transform 1 0 664 0 -1 -1560
 box 0 0 4420 3648
 use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1715205430
+timestamp 1723858470
 transform 1 0 4635 0 -1 -5242
 box -38 -48 314 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1715205430
+timestamp 1723858470
 transform 1 0 4911 0 -1 -5242
 box -38 -48 130 592
 << labels >>

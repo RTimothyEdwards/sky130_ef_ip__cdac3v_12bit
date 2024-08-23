@@ -127,12 +127,12 @@ x5 sel dvss dvss vdd1p8 vdd1p8 selp sky130_fd_sc_hd__inv_2
 .subckt simple_analog_switch_ena1v8 avss on out in avdd dvdd dvss
 *.PININFO on:I avss:B out:B in:B avdd:B dvdd:B dvss:B
 x2 on dvdd dvss dvss avdd avdd net3 sky130_fd_sc_hvl__lsbuflv2hv_1
-XD1 dvss on sky130_fd_pr__diode_pw2nd_05v5 area=2.025e11 perim=1.8e6
 x3 net1 net2 avss out in avdd simple_analog_switch
 x1 net3 dvss dvss avdd avdd net2 sky130_fd_sc_hvl__inv_2
 x4 net2 dvss dvss avdd avdd net1 sky130_fd_sc_hvl__inv_2
 x5[1] dvss dvss avdd avdd sky130_fd_sc_hvl__decap_4
 x5[0] dvss dvss avdd avdd sky130_fd_sc_hvl__decap_4
+x5 on dvss dvss avdd avdd sky130_fd_sc_hvl__diode_2
 .ends
 
 
