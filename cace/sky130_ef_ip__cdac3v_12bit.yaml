@@ -1,0 +1,78 @@
+#--------------------------------------------------------------
+# this is an initial file supporting physical checks 
+#--------------------------------------------------------------
+
+name: sky130_ef_ip__cdac3v_12bit
+description: a capacitive DAC that generates a short-term output voltage at high accuracy/linearity, for applications such as use in a SAR-ADC.
+PDK: sky130A
+cace_format: 5.2
+
+authorship:
+  designer: Tim Edwards
+  company: Efabless Corporation
+  creation_date: na
+  license: Apache 2.0
+ 
+paths:
+  root: ..
+  documentation: docs
+  schematic: xschem
+  magic: mag
+  layout: gds
+  netlist: netlist
+
+parameters:
+  magic_area:
+    spec:
+      area:
+        display: Area
+        description: Total circuit layout area
+        unit: µm²
+        maximum:
+          value: any
+      width:
+        display: Width
+        description: Total circuit layout width
+        unit: µm
+        maximum:
+          value: any
+      height:
+        display: Height
+        description: Total circuit layout height
+        unit: µm
+        maximum:
+          value: any
+    tool:
+      magic_area
+
+  magic_drc:
+    description: Magic DRC
+    display: Magic DRC
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+      magic_drc
+
+  netgen_lvs:
+    description: Netgen LVS
+    display: Netgen LVS
+    spec:
+      lvs_errors:
+        maximum:
+          value: 0
+    tool:
+      netgen_lvs:
+        script: run_lvs.tcl
+
+  klayout_drc_full:
+    description: KLayout DRC full
+    display: KLayout DRC full
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+        klayout_drc:
+            args: ['-rd', 'feol=true', '-rd', 'beol=true', '-rd', 'offgrid=true']
