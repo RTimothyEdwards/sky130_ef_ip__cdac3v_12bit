@@ -1,0 +1,6 @@
+[submodule "dependencies/sky130_ef_ip__analog_switches"]
+	path = dependencies/sky130_ef_ip__analog_switches
+	url = ../sky130_ef_ip__analog_switches.git
+[submodule "dependencies/sky130_ef_ip__samplehold"]
+	path = dependencies/sky130_ef_ip__samplehold
+	url = ../sky130_ef_ip__samplehold.git

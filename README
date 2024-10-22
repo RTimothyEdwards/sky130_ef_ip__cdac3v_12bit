@@ -1,0 +1,5 @@
+To get the dependent repositories, run
+
+	git submodule update --init --recursive
+
+in this directory.
