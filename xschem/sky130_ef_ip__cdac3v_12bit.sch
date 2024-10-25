@@ -68,11 +68,11 @@ C {devices/iopin.sym} -570 -1165 0 0 {name=p35 lab=DVSS}
 C {devices/iopin.sym} -570 -1135 0 0 {name=p41 lab=VH}
 C {devices/iopin.sym} -570 -1105 0 0 {name=p42 lab=VL}
 C {devices/iopin.sym} -570 -1225 0 0 {name=p43 lab=VSS}
-C {devices/ipin.sym} -535 -1020 0 0 {name=p46 lab=RST}
+C {devices/ipin.sym} -545 -970 0 0 {name=p46 lab=RST}
 C {devices/lab_pin.sym} 470 -1315 0 1 {name=p36 sig_type=std_logic lab=DVSS}
 C {devices/lab_pin.sym} -5 -1120 0 1 {name=p44 sig_type=std_logic lab=VSS}
-C {devices/opin.sym} -550 -960 0 0 {name=p39 lab=OUT}
-C {devices/opin.sym} -550 -910 0 0 {name=p40 lab=OUTNC}
+C {devices/opin.sym} -560 -910 0 0 {name=p39 lab=OUT}
+C {devices/opin.sym} -560 -860 0 0 {name=p40 lab=OUTNC}
 C {devices/ipin.sym} -495 -1320 0 0 {name=p37 lab=SELD10}
 C {devices/ipin.sym} -495 -1300 0 0 {name=p52 lab=SELD11}
 C {devices/lab_pin.sym} -310 -1240 0 0 {name=p53 sig_type=std_logic lab=D10}
@@ -81,3 +81,10 @@ C {devices/lab_pin.sym} -305 -940 0 0 {name=p73 sig_type=std_logic lab=SELD10}
 C {devices/lab_pin.sym} -305 -920 0 0 {name=p74 sig_type=std_logic lab=SELD11}
 C {devices/lab_pin.sym} -305 -700 0 0 {name=p75 sig_type=std_logic lab=D10}
 C {devices/lab_pin.sym} -305 -680 0 0 {name=p76 sig_type=std_logic lab=D11}
+C {devices/iopin.sym} -570 -1045 0 0 {name=p38 lab=VIN}
+C {lab_pin.sym} 170 -1355 0 0 {name=p45 sig_type=std_logic lab=VIN}
+C {devices/iopin.sym} -570 -1015 0 0 {name=p50 lab=Vref}
+C {devices/iopin.sym} -570 -1075 0 0 {name=p51 lab=VCM}
+C {lab_pin.sym} -5 -1020 0 1 {name=p77 sig_type=std_logic lab=VCM}
+C {lab_pin.sym} -310 -1520 0 0 {name=p78 sig_type=std_logic lab=Vref}
+C {lab_pin.sym} -307.5 -660 0 0 {name=p79 sig_type=std_logic lab=RST}
