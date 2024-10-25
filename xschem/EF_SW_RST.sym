@@ -25,7 +25,7 @@ B 5 -152.5 -12.5 -147.5 -7.5 {name=VP2 dir=inout}
 B 5 147.5 -32.5 152.5 -27.5 {name=AVDD dir=inout }
 B 5 147.5 -12.5 152.5 -7.5 {name=DVDD dir=inout }
 B 5 147.5 7.5 152.5 12.5 {name=AVSS dir=inout }
-B 5 147.5 27.5 152.5 32.5 {name=RST dir=in}
+B 5 147.5 27.5 152.5 32.5 {name=HOLD dir=in}
 B 5 147.5 47.5 152.5 52.5 {name=DVSS dir=inout }
 B 5 -152.5 7.5 -147.5 12.5 {name=VIN dir=inout}
 T {@symname} -58.5 -6 0 0 0.3 0.3 {}
@@ -35,6 +35,6 @@ T {VP2} -125 -14 0 0 0.2 0.2 {}
 T {AVDD} 125 -34 0 1 0.2 0.2 {}
 T {DVDD} 125 -14 0 1 0.2 0.2 {}
 T {AVSS} 125 6 0 1 0.2 0.2 {}
-T {RST} 125 26 0 1 0.2 0.2 {}
+T {HOLD} 125 26 0 1 0.2 0.2 {}
 T {DVSS} 125 46 0 1 0.2 0.2 {}
 T {VIN} -125 6 0 0 0.2 0.2 {}

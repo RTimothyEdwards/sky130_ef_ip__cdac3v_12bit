@@ -48,7 +48,7 @@ C {devices/lab_pin.sym} 170 -1375 0 0 {name=p58 sig_type=std_logic lab=OUT}
 C {devices/lab_pin.sym} 470 -1395 0 1 {name=p59 sig_type=std_logic lab=VDD}
 C {devices/lab_pin.sym} 470 -1375 0 1 {name=p62 sig_type=std_logic lab=DVDD}
 C {devices/lab_pin.sym} 470 -1355 0 1 {name=p63 sig_type=std_logic lab=VSS}
-C {devices/lab_pin.sym} 470 -1335 0 1 {name=p64 sig_type=std_logic lab=RST}
+C {devices/lab_pin.sym} 470 -1335 0 1 {name=p64 sig_type=std_logic lab=HOLD}
 C {EF_BANK_CAP_12.sym} -160 -1380 0 0 {name=x4}
 C {EF_AMUX0201_ARRAY1.sym} -155 -950 0 0 {name=x3}
 C {EF_SW_RST.sym} 320 -1365 0 0 {name=x1}
@@ -82,9 +82,10 @@ C {devices/lab_pin.sym} -305 -920 0 0 {name=p74 sig_type=std_logic lab=SELD11}
 C {devices/lab_pin.sym} -305 -700 0 0 {name=p75 sig_type=std_logic lab=D10}
 C {devices/lab_pin.sym} -305 -680 0 0 {name=p76 sig_type=std_logic lab=D11}
 C {devices/iopin.sym} -570 -1045 0 0 {name=p38 lab=VIN}
-C {lab_pin.sym} 170 -1355 0 0 {name=p45 sig_type=std_logic lab=VIN}
+C {devices/lab_pin.sym} 170 -1355 0 0 {name=p45 sig_type=std_logic lab=VIN}
 C {devices/iopin.sym} -570 -1015 0 0 {name=p50 lab=Vref}
 C {devices/iopin.sym} -570 -1075 0 0 {name=p51 lab=VCM}
-C {lab_pin.sym} -5 -1020 0 1 {name=p77 sig_type=std_logic lab=VCM}
-C {lab_pin.sym} -310 -1520 0 0 {name=p78 sig_type=std_logic lab=Vref}
-C {lab_pin.sym} -307.5 -660 0 0 {name=p79 sig_type=std_logic lab=RST}
+C {devices/lab_pin.sym} -5 -1020 0 1 {name=p77 sig_type=std_logic lab=VCM}
+C {devices/lab_pin.sym} -310 -1520 0 0 {name=p78 sig_type=std_logic lab=Vref}
+C {devices/lab_pin.sym} -305 -660 0 0 {name=p79 sig_type=std_logic lab=RST}
+C {devices/ipin.sym} -545 -940 0 0 {name=p80 lab=HOLD}

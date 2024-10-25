@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: cdac12bit.ps
 %%Creator: XCircuit v0.0 rev1850834581
-%%CreationDate: Thu Oct 24 19:00:47 2024
+%%CreationDate: Fri Oct 25 15:17:31 2024
 %%Pages: 1
-%%BoundingBox: 68 68 1060 599
+%%BoundingBox: 68 68 1168 1003
 %%DocumentNeededResources: font Helvetica Times-Roman 
 %%EndComments
 %%BeginProlog
@@ -282,7 +282,7 @@ endgate
 %%PageOrientation: Portrait
 /pgsave save def bop
 1.0000 inchscale
-2.6000 setlinewidth 1376 936 translate
+2.6000 setlinewidth 1376 2012 translate
 
 (12-bit precision CDAC with integrated sample-and-hold for ADC) {/Helvetica cf} 
 2 16 0.000 1.000 -1184 624 label
@@ -445,12 +445,57 @@ sce
 (D3) {/Helvetica cf} 2 16 0.000 1.000 -296 -80 label
 (D4) {/Helvetica cf} 2 16 0.000 1.000 -120 -80 label
 (D5) {/Helvetica cf} 2 16 0.000 1.000 40 -80 label
-(D6) {/Helvetica cf} 2 16 0.000 1.000 328 -80 label
-(D7) {/Helvetica cf} 2 16 0.000 1.000 488 -80 label
-(D8) {/Helvetica cf} 2 16 0.000 1.000 648 -80 label
-(D9) {/Helvetica cf} 2 16 0.000 1.000 808 -80 label
-(D10) {/Helvetica cf} 2 16 0.000 1.000 984 -80 label
-(D11) {/Helvetica cf} 2 16 0.000 1.000 1160 -80 label
+(D6) {/Helvetica cf} 2 16 0.000 1.000 1160 -80 label
+(D7) {/Helvetica cf} 2 16 0.000 1.000 984 -80 label
+(D8) {/Helvetica cf} 2 16 0.000 1.000 808 -80 label
+(D9) {/Helvetica cf} 2 16 0.000 1.000 648 -80 label
+(D10) {/Helvetica cf} 2 16 0.000 1.000 488 -80 label
+(D11) {/Helvetica cf} 2 16 0.000 1.000 328 -80 label
+(\) by more than 1/2 V.) {ns} (L) {ss} ( + V) {ns} (H) {ss} 
+( and may not differ from 1/2 \(V) {ns} (DD) {ss} {ns} ( = 1/2 V) {ns} (CM) 
+{ss} (.  Otherwise, normal operation is with V) {ns} (L) {ss} ( = V) {ns} (CM) 
+{ss} ( = V) {ns} (in) {ss} (This operates like the original CDAC if V) 
+{/Helvetica cf} 31 16 0.000 1.000 -1152 -832 label
+(HOLD) {ol} {/Helvetica cf} 3 16 0.000 1.000 -160 272 label
+(HOLD) {ol} {/Helvetica cf} 3 16 0.000 1.000 608 272 label
+(Voltage on cap bottom =) {/Helvetica cf} 2 16 0.000 1.000 -1152 -928 label
+(CM) {ss} (V) {/Helvetica cf} 4 16 0.000 1.000 -640 -928 label
+(if RST = 1) {/Helvetica cf} 2 16 0.000 1.000 -544 -928 label
+(L) {ss} (V) {/Helvetica cf} 4 16 0.000 1.000 -640 -992 label
+(if RST = 0, Dx = 0) {/Helvetica cf} 2 16 0.000 1.000 -544 -992 label
+(H) {ss} (V) {/Helvetica cf} 4 16 0.000 1.000 -640 -1056 label
+(if RST = 0, Dx = 1) {/Helvetica cf} 2 16 0.000 1.000 -544 -1056 label
+1 1.000 -656 -880 -672 -896 -672 -1056 -656 -1072 4 polygon
+(Timing:) {/Helvetica cf} 2 16 0.000 1.000 -1152 -1184 label
+(RST) {/Helvetica cf} 2 16 0.000 1.000 -896 -1216 label
+(HOLD) {/Helvetica cf} 2 16 0.000 1.000 -896 -1344 label
+(D11) {/Helvetica cf} 2 16 0.000 1.000 -896 -1472 label
+1 1.000 -720 -1248 -672 -1248 -672 -1152 -560 -1152 -560 -1248 448 -1248 6 
+polygon
+1 1.000 -720 -1376 -608 -1376 -608 -1280 448 -1280 4 polygon
+1 1.000 -720 -1504 -608 -1504 -608 -1408 -448 -1408 -448 -1504 448 -1504 6 
+polygon
+3 1.000 -448 -1408 448 -1408 2 polygon
+(D10) {/Helvetica cf} 2 16 0.000 1.000 -896 -1600 label
+1 1.000 -720 -1632 -448 -1632 -448 -1536 -336 -1536 -336 -1632 448 -1632 6 
+polygon
+3 1.000 -336 -1536 448 -1536 2 polygon
+(D9) {/Helvetica cf} 2 16 0.000 1.000 -896 -1728 label
+1 1.000 -720 -1760 -336 -1760 -336 -1664 -224 -1664 -224 -1760 448 -1760 6 
+polygon
+3 1.000 -224 -1664 448 -1664 2 polygon
+(. . .) {/Helvetica cf} 2 21 90.000 1.000 -864 -1792 label
+(RST must be asserted high when HOLD is applied) {/Helvetica cf} 2 20 0.000 
+1.000 544 -1200 label
+(HOLD remains high for the duration of conversion) {/Helvetica cf} 2 16 0.000 
+1.000 544 -1360 label
+(The first bit should be raised any time while RST is high) {/Helvetica cf} 2 
+16 0.000 1.000 544 -1488 label
+(bits have been tested, the value D[11:0] is the result.) {CR} 
+(comparator result is low, then the bit is set low.  After all) {CR} 
+(comparator result is high, then the bit is left high.  If the) {CR} 
+(The comparator is sampled after each bit is applied.  If the) {/Helvetica cf} 
+8 28 0.000 1.000 544 -1552 label
 pgsave restore showpage
 
 %%Trailer

@@ -43,4 +43,4 @@ C {devices/iopin.sym} 790 -600 0 1 {name=p8 lab=D11}
 C {devices/lab_pin.sym} 1095 -490 0 0 {name=p11 sig_type=std_logic lab=D10}
 C {devices/lab_pin.sym} 1095 -470 0 0 {name=p22 sig_type=std_logic lab=D11}
 C {devices/iopin.sym} 790 -910 0 1 {name=p23 lab=Vref}
-C {lab_pin.sym} 1095 -920 0 0 {name=p24 sig_type=std_logic lab=Vref}
+C {devices/lab_pin.sym} 1095 -920 0 0 {name=p24 sig_type=std_logic lab=Vref}
