@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1722784074
+timestamp 1731114039
 << nwell >>
 rect 58549 -26640 83864 21013
 << mvnsubdiff >>
@@ -97,7 +97,6 @@ rect 58383 -13951 58879 -13887
 rect 83502 -14075 83503 -14011
 rect 83567 -14075 83568 -14011
 rect 58346 -16431 58879 -16367
-rect 60425 -16411 60485 -16150
 rect 83551 -16431 83626 -16367
 rect 83690 -16431 84056 -16367
 rect 83379 -16555 83380 -16491
@@ -338,11 +337,11 @@ rect 59053 -23871 59054 -23807
 rect 58988 -23872 59054 -23871
 rect 58991 -24038 59051 -23872
 use cap_array_half  cap_array_half_0
-timestamp 1722438219
+timestamp 1731076626
 transform -1 0 164043 0 -1 -5787
 box 80293 -26673 105363 -4081
 use cap_array_half  cap_array_half_1
-timestamp 1722438219
+timestamp 1731076626
 transform 1 0 -21613 0 1 156
 box 80293 -26673 105363 -4081
 use caparray_connect_near  caparray_connect_near_0
@@ -597,8 +596,6 @@ flabel metal3 83854 -16431 84054 -16367 0 FreeSans 480 0 0 0 D1
 port 6 nsew
 flabel metal3 83822 -8991 84022 -8927 0 FreeSans 480 0 0 0 D3
 port 12 nsew
-flabel metal3 58348 -16431 58545 -16367 0 FreeSans 480 0 0 0 VSS
-port 10 nsew
 flabel metal4 83544 -16396 83544 -16396 0 FreeSans 800 0 0 0 D1
 flabel comment 83563 -6484 83563 -6484 0 FreeSans 800 0 0 0 D5
 flabel metal4 83563 -11436 83563 -11436 0 FreeSans 800 0 0 0 D5
@@ -609,7 +606,6 @@ flabel comment 83584 -14047 83584 -14047 0 FreeSans 800 0 0 0 D3
 flabel comment 83582 -19005 83582 -19005 0 FreeSans 800 0 0 0 D3
 flabel metal3 83576 -11564 83576 -11564 0 FreeSans 800 0 0 0 D1
 flabel metal4 58868 -11565 58868 -11565 0 FreeSans 800 0 0 0 D1
-flabel metal4 58889 -16397 58889 -16397 0 FreeSans 800 0 0 0 VSS
 flabel metal4 58877 -13917 58877 -13917 0 FreeSans 800 0 0 0 D0
 flabel comment 58859 -9078 58859 -9078 0 FreeSans 800 0 0 0 D4
 flabel comment 58864 -18878 58864 -18878 0 FreeSans 800 0 0 0 D4
@@ -648,4 +644,9 @@ flabel metal3 58847 10760 58847 10760 0 FreeSans 800 0 0 0 D7
 flabel metal3 58847 5928 58847 5928 0 FreeSans 800 0 0 0 D7
 flabel metal3 83848 -1664 84044 -1600 0 FreeSans 480 0 0 0 VP2
 port 7 nsew
+flabel metal4 58889 -16197 58889 -16197 0 FreeSans 800 0 0 0 VSS
+flabel metal3 83846 -23995 84043 -23931 0 FreeSans 480 0 0 0 VSS
+port 10 nsew
+flabel metal3 58346 -16431 58512 -16367 0 FreeSans 480 0 0 0 Vref
+port 15 nsew
 << end >>
