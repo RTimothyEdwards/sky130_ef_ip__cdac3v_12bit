@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731116066
+timestamp 1731117925
 << dnwell >>
 rect 673 603 4874 1007
 << nwell >>
@@ -33,18 +33,21 @@ rect 1866 1054 2266 1069
 rect 818 872 966 882
 rect 818 818 819 872
 rect 960 869 966 872
-rect 1823 869 2023 948
+rect 1821 869 2021 944
 rect 960 825 3127 869
 rect 960 818 966 825
+rect 1821 824 2021 825
 rect 818 810 966 818
 rect 737 746 919 748
-rect 737 744 3032 746
+rect 737 745 1823 746
+rect 2023 745 3032 746
+rect 737 744 3032 745
 rect 737 692 744 744
 rect 911 702 3032 744
 rect 911 692 919 702
 rect 737 687 919 692
 rect 1265 615 1662 627
-rect 1821 626 2021 702
+rect 1823 622 2023 702
 rect 3083 669 3127 825
 rect 1265 341 1279 615
 rect 1652 341 1662 615
@@ -160,8 +163,8 @@ flabel metal2 4676 1704 4876 1904 0 FreeSans 256 0 0 0 VP1
 port 1 nsew
 flabel metal2 4678 -274 4878 -74 0 FreeSans 256 0 0 0 VP2
 port 0 nsew
-flabel metal1 1823 825 2023 948 0 FreeSans 320 0 0 0 HOLDB
-port 10 nsew
-flabel metal1 1821 626 2021 746 0 FreeSans 256 0 0 0 HOLD
+flabel metal1 1821 824 2021 944 0 FreeSans 256 0 0 0 HOLD
 port 5 nsew
+flabel metal1 1823 622 2023 745 0 FreeSans 320 0 0 0 HOLDB
+port 10 nsew
 << end >>

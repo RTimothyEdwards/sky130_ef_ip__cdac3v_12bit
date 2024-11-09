@@ -34,8 +34,8 @@ XXM5 in vss in off sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
 .ends
 
 .subckt EF_SW_RST VP2 VP1 AVDD DVDD AVSS HOLD DVSS HOLDB VIN m3_2464_n194# m3_1864_n2876#
-Xsimple_analog_switch_0 HOLD HOLDB VIN AVDD VP2 AVSS simple_analog_switch
-Xsimple_analog_switch_1 HOLD HOLDB VP1 AVDD VIN AVSS simple_analog_switch
+Xsimple_analog_switch_0 HOLDB HOLD VIN AVDD VP2 AVSS simple_analog_switch
+Xsimple_analog_switch_1 HOLDB HOLD VP1 AVDD VIN AVSS simple_analog_switch
 .ends
 
 .subckt sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J a_n345_n500# a_129_n500# a_287_n500# a_n479_n722#

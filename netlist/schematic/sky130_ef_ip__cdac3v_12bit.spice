@@ -49,8 +49,8 @@ x7 VDD D11 VSS VH VL SELD11 DVSS VCM RST EF_AMUX21x
 ** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/dependencies/sky130_ef_ip__cdac3v_12bit/xschem/EF_SW_RST.sch
 .subckt EF_SW_RST VP1 VP2 AVDD AVSS HOLD VIN DVSS HOLDB
 *.PININFO HOLD:I AVDD:B AVSS:B VP2:B VP1:B VIN:B DVSS:B HOLDB:I
-x4 HOLD HOLDB AVSS VIN VP1 AVDD simple_analog_switch
-x5 HOLD HOLDB AVSS VP2 VIN AVDD simple_analog_switch
+x4 HOLDB HOLD AVSS VIN VP1 AVDD simple_analog_switch
+x5 HOLDB HOLD AVSS VP2 VIN AVDD simple_analog_switch
 .ends
 
 

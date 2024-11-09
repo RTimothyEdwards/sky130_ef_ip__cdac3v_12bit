@@ -130,58 +130,58 @@ C {devices/iopin.sym} -200 -180 0 1 {name=p11 lab=vdd1p8}
 C {devices/ipin.sym} -90 -100 0 0 {name=p3 lab=rst}
 C {sky130_stdcells/diode_2.sym} 40 -40 0 0 {name=x19 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 40 -260 0 0 {name=x20 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 150 -180 0 0 {name=p4 lab=sel0_3p3}
-C {opin.sym} 170 -100 0 0 {name=p19 lab=rst_3p3}
+C {devices/opin.sym} 150 -180 0 0 {name=p4 lab=sel0_3p3}
+C {devices/opin.sym} 170 -100 0 0 {name=p19 lab=rst_3p3}
 C {devices/ipin.sym} -70 -320 0 0 {name=p20 lab=sel1}
 C {lsbuflv2hv_1.sym} 0 -320 0 0 {name=x1 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 50 -400 0 0 {name=x2 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 160 -320 0 0 {name=p21 lab=sel1_3p3}
+C {devices/opin.sym} 160 -320 0 0 {name=p21 lab=sel1_3p3}
 C {lsbuflv2hv_1.sym} -10 -180 0 0 {name=x3 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {lsbuflv2hv_1.sym} -10 -100 0 0 {name=x4 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {devices/ipin.sym} -70 -450 0 0 {name=p1 lab=sel2}
 C {lsbuflv2hv_1.sym} 0 -450 0 0 {name=x5 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 50 -530 0 0 {name=x6 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 160 -450 0 0 {name=p2 lab=sel2_3p3}
+C {devices/opin.sym} 160 -450 0 0 {name=p2 lab=sel2_3p3}
 C {devices/ipin.sym} -70 -590 0 0 {name=p5 lab=sel3}
 C {lsbuflv2hv_1.sym} 0 -590 0 0 {name=x7 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 50 -670 0 0 {name=x8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 160 -590 0 0 {name=p6 lab=sel3_3p3}
+C {devices/opin.sym} 160 -590 0 0 {name=p6 lab=sel3_3p3}
 C {devices/ipin.sym} 370 -180 0 0 {name=p7 lab=sel4}
 C {lsbuflv2hv_1.sym} 440 -180 0 0 {name=x9 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 490 -260 0 0 {name=x10 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 600 -180 0 0 {name=p8 lab=sel4_3p3}
+C {devices/opin.sym} 600 -180 0 0 {name=p8 lab=sel4_3p3}
 C {devices/ipin.sym} 370 -320 0 0 {name=p12 lab=sel5}
 C {lsbuflv2hv_1.sym} 440 -320 0 0 {name=x11 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 490 -400 0 0 {name=x12 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 600 -320 0 0 {name=p13 lab=sel5_3p3}
+C {devices/opin.sym} 600 -320 0 0 {name=p13 lab=sel5_3p3}
 C {devices/ipin.sym} 380 -460 0 0 {name=p14 lab=sel6}
 C {lsbuflv2hv_1.sym} 450 -460 0 0 {name=x13 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel6}
 C {sky130_stdcells/diode_2.sym} 500 -540 0 0 {name=x14 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel6}
-C {opin.sym} 610 -460 0 0 {name=p15 lab=sel6_3p3}
+C {devices/opin.sym} 610 -460 0 0 {name=p15 lab=sel6_3p3}
 C {devices/ipin.sym} 390 -590 0 0 {name=p17 lab=sel7}
 C {lsbuflv2hv_1.sym} 460 -590 0 0 {name=x15 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel6}
 C {sky130_stdcells/diode_2.sym} 510 -670 0 0 {name=x16 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel6}
-C {opin.sym} 620 -590 0 0 {name=p18 lab=sel7_3p3}
+C {devices/opin.sym} 620 -590 0 0 {name=p18 lab=sel7_3p3}
 C {devices/ipin.sym} 780 -180 0 0 {name=p22 lab=sel8}
 C {lsbuflv2hv_1.sym} 850 -180 0 0 {name=x17 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 900 -260 0 0 {name=x18 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 1010 -180 0 0 {name=p23 lab=sel8_3p3}
+C {devices/opin.sym} 1010 -180 0 0 {name=p23 lab=sel8_3p3}
 C {devices/ipin.sym} 790 -310 0 0 {name=p24 lab=sel9}
 C {lsbuflv2hv_1.sym} 860 -310 0 0 {name=x21 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 910 -390 0 0 {name=x22 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 1020 -310 0 0 {name=p25 lab=sel9_3p3}
+C {devices/opin.sym} 1020 -310 0 0 {name=p25 lab=sel9_3p3}
 C {devices/ipin.sym} 800 -450 0 0 {name=p26 lab=sel10}
 C {lsbuflv2hv_1.sym} 870 -450 0 0 {name=x23 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/diode_2.sym} 920 -530 0 0 {name=x24 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 1030 -450 0 0 {name=p27 lab=sel10_3p3}
+C {devices/opin.sym} 1030 -450 0 0 {name=p27 lab=sel10_3p3}
 C {devices/ipin.sym} 810 -580 0 0 {name=p28 lab=sel11}
 C {lsbuflv2hv_1.sym} 880 -580 0 0 {name=x25 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel11}
 C {sky130_stdcells/diode_2.sym} 930 -660 0 0 {name=x26 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ lab=sel11}
-C {opin.sym} 1040 -580 0 0 {name=p29 lab=sel11_3p3}
+C {devices/opin.sym} 1040 -580 0 0 {name=p29 lab=sel11_3p3}
 C {devices/ipin.sym} 360 -100 0 0 {name=p30 lab=hold}
 C {sky130_stdcells/diode_2.sym} 490 -40 0 0 {name=x27 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 620 -100 0 0 {name=p31 lab=hold_3p3}
+C {devices/opin.sym} 620 -100 0 0 {name=p31 lab=hold_3p3}
 C {lsbuflv2hv_1.sym} 440 -100 0 0 {name=x28 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/decap_4.sym} 890 -80 0 0 {name=x29[14:0] VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/inv_2.sym} 650 -10 0 0 {name=x29 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
-C {opin.sym} 730 -10 0 0 {name=p32 lab=holdb_3p3}
+C {devices/opin.sym} 730 -10 0 0 {name=p32 lab=holdb_3p3}

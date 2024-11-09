@@ -6,19 +6,19 @@ V {}
 S {}
 E {}
 N 1460 -1270 1600 -1270 {
-lab=HOLD}
+lab=HOLDB}
 N 1570 -1250 1570 -1230 {
-lab=HOLDB}
+lab=#net1}
 N 1570 -1250 1600 -1250 {
-lab=HOLDB}
+lab=#net1}
 N 1570 -1230 1570 -1100 {
-lab=HOLDB}
+lab=#net1}
 N 1570 -1100 1600 -1100 {
-lab=HOLDB}
+lab=#net1}
 N 1590 -1120 1600 -1120 {
-lab=HOLD}
+lab=HOLDB}
 N 1590 -1270 1590 -1120 {
-lab=HOLD}
+lab=HOLDB}
 N 1900 -1270 1930 -1270 {
 lab=AVSS}
 N 1900 -1210 1930 -1210 {
@@ -42,8 +42,8 @@ lab=VIN}
 N 1900 -1320 1930 -1320 {
 lab=DVSS}
 N 1460 -1230 1570 -1230 {
-lab=HOLDB}
-C {devices/ipin.sym} 1460 -1270 0 0 {name=p1 lab=HOLD}
+lab=#net1}
+C {devices/ipin.sym} 1460 -1230 0 0 {name=p1 lab=HOLD}
 C {simple_analog_switch.sym} 1750 -1240 0 0 {name=x4}
 C {simple_analog_switch.sym} 1750 -1090 0 0 {name=x5}
 C {devices/lab_pin.sym} 1930 -1120 0 1 {name=p10 sig_type=std_logic lab=AVSS}
@@ -54,5 +54,5 @@ C {devices/iopin.sym} 2040 -1100 0 0 {name=p17 lab=VP2}
 C {devices/iopin.sym} 2040 -1230 0 0 {name=p18 lab=VP1}
 C {devices/iopin.sym} 2040 -1170 0 0 {name=p19 lab=VIN}
 C {devices/iopin.sym} 1930 -1320 0 0 {name=p2 lab=DVSS}
-C {lab_pin.sym} 1900 -1320 0 0 {name=p4 sig_type=std_logic lab=DVSS}
-C {devices/ipin.sym} 1460 -1230 0 0 {name=p5 lab=HOLDB}
+C {devices/lab_pin.sym} 1900 -1320 0 0 {name=p4 sig_type=std_logic lab=DVSS}
+C {devices/ipin.sym} 1460 -1270 0 0 {name=p5 lab=HOLDB}

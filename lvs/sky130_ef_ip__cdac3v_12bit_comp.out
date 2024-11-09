@@ -362,8 +362,8 @@ Circuit 1: EF_SW_RST                                |Circuit 2: EF_SW_RST
 ----------------------------------------------------|----------------------------------------------------
 VP1                                                 |VP1                                                 
 VP2                                                 |VP2                                                 
-HOLD                                                |HOLD                                                
 HOLDB                                               |HOLDB                                               
+HOLD                                                |HOLD                                                
 AVSS                                                |AVSS                                                
 VIN                                                 |VIN                                                 
 AVDD                                                |AVDD                                                
