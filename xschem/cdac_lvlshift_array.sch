@@ -185,3 +185,6 @@ C {lsbuflv2hv_1.sym} 440 -100 0 0 {name=x28 LVPWR=vdd1p8 VGND=vss VNB=vss VPB=vd
 C {sky130_stdcells/decap_4.sym} 890 -80 0 0 {name=x29[14:0] VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/inv_2.sym} 650 -10 0 0 {name=x29 VGND=vss VNB=vss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {devices/opin.sym} 730 -10 0 0 {name=p32 lab=holdb_3p3}
+C {noconn.sym} -200 -220 0 1 {name=l1}
+C {noconn.sym} -200 -200 0 1 {name=l2}
+C {noconn.sym} -200 -180 0 1 {name=l3}

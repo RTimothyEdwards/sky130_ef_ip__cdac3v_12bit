@@ -135,3 +135,4 @@ C {sky130_stdcells/inv_2.sym} 660 -120 0 0 {name=x10 VGND=dvss VNB=dvss VPB=vdd3
 C {sky130_stdcells/nor2_1.sym} 310 -200 0 0 {name=x1 VGND=dvss VNB=dvss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/nor2_1.sym} 230 -70 0 0 {name=x3 VGND=dvss VNB=dvss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
 C {sky130_stdcells/decap_8.sym} 190 40 0 0 {name=x4[3:0] VGND=dvss VNB=dvss VPB=vdd3p3 VPWR=vdd3p3 prefix=sky130_fd_sc_hvl__ }
+C {noconn.sym} -200 -160 0 1 {name=l1}
